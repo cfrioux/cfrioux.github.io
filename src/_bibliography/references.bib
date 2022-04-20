@@ -34,6 +34,53 @@
 %
 % ----- ARTICLES -----
 %
+@article {Belcour2022.03.16.484574,
+	author = {Belcour, Arnaud and Ruiz, Baptiste and Frioux, Cl{\'e}mence and Blanquart, Samuel and Siegel, Anne},
+	title = {EsMeCaTa: Estimating metabolic capabilities from taxonomic affiliations},
+	elocation-id = {2022.03.16.484574},
+	year = {2022},
+	doi = {10.1101/2022.03.16.484574},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {Summary Predicting the functional potential of microorganisms in environmental samples from cultivation-independent techniques is a major challenge. A persistent difficulty lies in associating taxonomic profiles obtained from metabarcoding experiment with accurate functional profiles, particularly for poorly-resolved taxonomic groups. In this paper, we present EsMeCaTa a python package predicting shared proteins from taxonomic affiliations. EsMeCaTa relies on the UniProt database to retrieve the public proteomes associated with a taxon and then uses MMseqs2 in order to compute the set of proteins shared in the taxon. Finally, Es-MeCaTa extracts the functional annotations of these proteins to provide an accurate estimate of the functional potential associated to taxonomic affiliations.Availability EsMeCaTa is available at: https://github.com/AuReMe/esmecata under the GPL-3 license.Competing Interest StatementThe authors have declared no competing interest.},
+	URL = {https://www.biorxiv.org/content/early/2022/03/18/2022.03.16.484574},
+	eprint = {https://www.biorxiv.org/content/early/2022/03/18/2022.03.16.484574.full.pdf},
+	journal = {bioRxiv},
+    PDF = {https://www.biorxiv.org/content/10.1101/2022.03.16.484574v1.full.pdf},
+    HAL_ID = {hal-03223662}
+
+}
+
+@article{Karimi.2021, 
+    year = {2021}, 
+    title = {{Robustness analysis of metabolic predictions in algal microbial communities based on different annotation pipelines}}, 
+    author = {Karimi, Elham and Geslain, Enora and Belcour, Arnaud and Frioux, Clémence and Aïte, Méziane and Siegel, Anne and Corre, Erwan and Dittami, Simon M.}, 
+    journal = {PeerJ}, 
+    issn = {2167-8359}, 
+    doi = {10.7717/peerj.11344}, 
+    pmid = {33996285}, 
+    abstract = {{Animals, plants, and algae rely on symbiotic microorganisms for their development and functioning. Genome sequencing and genomic analyses of these microorganisms provide opportunities to construct metabolic networks and to analyze the metabolism of the symbiotic communities they constitute. Genome-scale metabolic network reconstructions rest on information gained from genome annotation. As there are multiple annotation pipelines available, the question arises to what extent differences in annotation pipelines impact outcomes of these analyses. Here, we compare five commonly used pipelines (Prokka, MaGe, IMG, DFAST, RAST) from predicted annotation features (coding sequences, Enzyme Commission numbers, hypothetical proteins) to the metabolic network-based analysis of symbiotic communities (biochemical reactions, producible compounds, and selection of minimal complementary bacterial communities). While Prokka and IMG produced the most extensive networks, RAST and DFAST networks produced the fewest false positives and the most connected networks with the fewest dead-end metabolites. Our results underline differences between the outputs of the tested pipelines at all examined levels, with small differences in the draft metabolic networks resulting in the selection of different microbial consortia to expand the metabolic capabilities of the algal host. However, the consortia generated yielded similar predicted producible compounds and could therefore be considered functionally interchangeable. This contrast between selected communities and community functions depending on the annotation pipeline needs to be taken into consideration when interpreting the results of metabolic complementarity analyses. In the future, experimental validation of bioinformatic predictions will likely be crucial to both evaluate and refine the pipelines and needs to be coupled with increased efforts to expand and improve annotations in reference databases.}}, 
+    pages = {e11344}, 
+    volume = {9}, 
+    keywords = {na},
+    url = {https://peerj.com/articles/11344/},
+    PDF = {https://peerj.com/articles/11344.pdf}
+}
+
+@article{Hildebrand.2021, 
+    year = {2021}, 
+    title = {{Dispersal strategies shape persistence and evolution of human gut bacteria}}, 
+    author = {Hildebrand, Falk and Gossmann, Toni I. and Frioux, Clémence and Özkurt, Ezgi and Myers, Pernille Neve and Ferretti, Pamela and Kuhn, Michael and Bahram, Mohammad and Nielsen, Henrik Bjørn and Bork, Peer}, 
+    journal = {Cell Host \& Microbe}, 
+    issn = {1931-3128}, 
+    doi = {10.1016/j.chom.2021.05.008}, 
+    pmid = {34111423}, 
+    abstract = {{Human gut bacterial strains can co-exist with their hosts for decades, but little is known about how these microbes persist and disperse, and evolve thereby. Here, we examined these processes in 5,278 adult and infant fecal metagenomes, longitudinally sampled in individuals and families. Our analyses revealed that a subset of gut species is extremely persistent in individuals, families, and geographic regions, represented often by locally successful strains of the phylum Bacteroidota. These “tenacious” bacteria show high levels of genetic adaptation to the human host but a high probability of loss upon antibiotic interventions. By contrast, heredipersistent bacteria, notably Firmicutes, often rely on dispersal strategies with weak phylogeographic patterns but strong family transmissions, likely related to sporulation. These analyses describe how different dispersal strategies can lead to the long-term persistence of human gut microbes with implications for gut flora modulations.}}, 
+    keywords = {na},
+    url = {https://doi.org/10.1016/j.chom.2021.05.008},
+    PDF = {https://www.cell.com/cell-host-microbe/fulltext/S1931-3128(21)00236-5?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1931312821002365%3Fshowall%3Dtrue#},
+    HAL_ID = {hal-03438942}
+}
+
 @article{10.7554/elife.61968, 
     title = {{Metage2Metabo, microbiota-scale metabolic complementarity for the identication of key species}}, 
     author = {Belcour*, Arnaud and Frioux*, Clémence and Aite, Méziane and Bretaudeau, Anthony and Hildebrand, Falk and Siegel, Anne}, 
@@ -43,7 +90,10 @@
     abstract = {{To capture the functional diversity of microbiota, one must identify metabolic functions and species of interest within hundreds or thousands of microorganisms. We present Metage2Metabo (M2M) a resource that meets the need for de-novo functional screening of genome-scale metabolic networks (GSMNs) at the scale of a metagenome, and the identification of critical species with respect to metabolic cooperation. M2M comprises a flexible pipeline for the characterisation of individual metabolisms and collective metabolic complementarity. In addition, M2M identifies key species, that are meaningful members of the community for functions of interest. We demonstrate that M2M is applicable to collections of genomes as well as metagenome-assembled genomes, permits an efficient GSMN reconstruction with Pathway Tools, and assesses the cooperation potential between species. M2M identifies key organisms by reducing the complexity of a large-scale microbiota into minimal communities with equivalent properties, suitable for further analyses.}}, 
     pages = {e61968}, 
     volume = {9}, 
-    year = {2020}
+    year = {2020},
+    url = {https://elifesciences.org/articles/61968},
+    PDF = {https://elifesciences.org/download/aHR0cHM6Ly9jZG4uZWxpZmVzY2llbmNlcy5vcmcvYXJ0aWNsZXMvNjE5NjgvZWxpZmUtNjE5NjgtdjIucGRmP2Nhbm9uaWNhbFVyaT1odHRwczovL2VsaWZlc2NpZW5jZXMub3JnL2FydGljbGVzLzYxOTY4/elife-61968-v2.pdf?_hash=EXsUlHXbjThDLgTcsexviMFFDldmHq8YSWWXdWRUaIY%3D},
+    HAL_ID = {hal-02395024}
 }
 
 @article{Frioux.2020jlpr, 

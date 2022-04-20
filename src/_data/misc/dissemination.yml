@@ -1,9 +1,29 @@
 - name: Scientific communication
   values:
+  - period: 2022
+    name: Logic modelling of metabolism - from individual networks to communities
+    role: Talk
+    at: Bordeaux Bioinformatics Center seminar, France
+  - period: 2021
+    name: Logic modelling of metabolism - from individual networks to communities
+    role: Talk
+    at: French workshop on Metabolic Modelling, Bordeaux, France
+  - period: 2021
+    name: Metabolic complementarity applied to the screening of microbiota and the identification of key species
+    role: Talk
+    at: Computational Methods in Systems Biology 2021, Bordeaux, France
+  - period: 2021
+    name: Metabolic complementarity applied to the screening of microbiota and the identification of key species
+    role: Talk
+    at: Metabolic Pathway Analysis 2021 (virtual)
+  - period: 2020
+    name: Metabolic complementarity applied to the screening of microbiota and the identification of key species
+    role: Talk
+    at: JOBIM Conference (virtual), France
   - period: 2020
     name: Gap-filling metabolism in systems biology and microbial systems ecology
     role: Talk
-    at: BioNum Seminar — LaBRI </a>, February 2020, Bordeaux, France
+    at: BioNum Seminar — LaBRI, February 2020, Bordeaux, France
   - period: 2019
     name: Investigating host-microbiota cooperation with gap-filling optimization problems
     role: Talk
@@ -71,6 +91,10 @@
 
 - name: Scientific popularizarion
   values:
+  - period: 2021 - ...
+    name: <a href="https://chiche-snt.fr/" target="_blank"> Chiche ! Un ou une scientifique, une classe" </a>
+    role: Visit of a scientist in high schools in order to advertise academic careers and computer science research while deconstructing stereotypes.
+    at:  Bordeaux and its surrounding regions.
   - period: 2019
     name: <a href="https://norwichsciencefestival.co.uk/about/norwich-science-festival-2019/" target="_blank"> "Microbes of the gut, the good and the bad in us" </a>
     role: Presentation of research on the gut microbiota by scientists of the <a href="https://quadram.ac.uk/" target="_blank">Quadram Institute</a> and the <a href="https://www.earlham.ac.uk/" target="_blank">Earlham Institute</a>
