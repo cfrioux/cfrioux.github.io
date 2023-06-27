@@ -1,11 +1,11 @@
-- name: DBLP
-  url: https://dblp.uni-trier.de/pers/hd/f/Frioux:Cl=eacute=mence
-
-- name: Google Scholar
+- name: <i class="fas fa-graduation-cap"></i> Google Scholar
   url: https://scholar.google.fr/citations?user=ILXDngoAAAAJ&hl
 
-- name: ResearchGate
+- name:  <i class="fa-brands fa-orcid"></i> ORCID
+  url: https://orcid.org/0000-0003-2114-0697
+
+- name: <i class="fa-brands fa-researchgate"></i> ResearchGate
   url: https://www.researchgate.net/profile/Clemence_Frioux
 
-- name: ORCID
-  url: https://orcid.org/0000-0003-2114-0697
+- name: DBLP
+  url: https://dblp.uni-trier.de/pers/hd/f/Frioux:Cl=eacute=mence

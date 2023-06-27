@@ -22,21 +22,45 @@
             <div class="col-md-3">
                 <p>
                     {% if site.networks.github %}
-                    <i class="fab fa-github-square"></i>
+                    <i class="fa-brands fa-github-square"></i>
                     <a href="{{ site.networks.github.username | prepend: site.networks.github.url }}">
                         {{ site.networks.github.username }}
                     </a><br/>
                     {% endif %}
                     {% if site.networks.twitter %}
-                    <i class="fab fa-twitter-square"></i>
+                    <i class="fa-brands fa-twitter-square"></i>
                     <a href="{{ site.networks.twitter.username | prepend: site.networks.twitter.url }}">
                         {{ site.networks.twitter.username }}
                     </a><br/>
                     {% endif %}
                     {% if site.networks.linkedin %}
-                    <i class="fab fa-linkedin"></i>
+                    <i class="fa-brands fa-linkedin"></i>
                     <a href="{{ site.networks.linkedin.username | prepend: site.networks.linkedin.url }}">
                         {{ site.networks.linkedin.username }}
+                    </a><br/>
+                    {% endif %}
+                    {% if site.networks.scholar %}
+                    <i class="fas fa-graduation-cap"></i>
+                    <a href="{{ site.networks.scholar.username | prepend: site.networks.scholar.url }}">
+                        Clémence Frioux
+                    </a><br/>
+                    {% endif %}
+                    {% if site.networks.mastodon %}
+                    <i class="fa-brands fa-mastodon"></i>
+                    <a href="{{ site.networks.mastodon.username | prepend: site.networks.mastodon.url }}">
+                        {{ site.networks.mastodon.username }}
+                    </a><br/>
+                    {% endif %}
+                    {% if site.networks.orcid %}
+                    <i class="fa-brands fa-orcid"></i>
+                    <a href="{{ site.networks.orcid.username | prepend: site.networks.orcid.url }}">
+                        {{ site.networks.orcid.username }}
+                    </a><br/>
+                    {% endif %}
+                    {% if site.networks.researchgate %}
+                    <i class="fa-brands fa-researchgate"></i>
+                    <a href="{{ site.networks.researchgate.username | prepend: site.networks.researchgate.url }}">
+                        {{ site.networks.researchgate.username }}
                     </a><br/>
                     {% endif %}
                 </p>

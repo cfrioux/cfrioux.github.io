@@ -34,6 +34,18 @@ networks:
   linkedin:
     url: https://www.linkedin.com/
     username: in/clemencefrioux
+  mastodon:
+    url: https://mamot.fr/@
+    username: clemencefrioux
+  scholar:
+    url: https://scholar.google.com/citations?user=
+    username: ILXDngoAAAAJ
+  orcid:
+    url: https://orcid.org/
+    username: 0000-0003-2114-0697
+  researchgate:
+    url: https://www.researchgate.net/profile/
+    username: Clemence-Frioux
 
 # google analytics
 analytics_id: UA-115007039-1
