@@ -1,7 +1,7 @@
 <div class="bs-callout bs-callout-warning">
     <h4><i class="glyphicon glyphicon-wrench"></i> Works ahead!</h4>
     <p class="text-justify">
-        Some conference references and/or pdf may be missing.
+        Some conference references and/or pdf may be missing due to delays in website updates. Google Scholar is most likely up-to-date.
     </p>
 </div>
 
@@ -50,7 +50,9 @@
 
     <h3 id="publications_nojs_article">Journal Articles</h3>
 
-    {% if site.kind.separate.article %}
+    {% bibliography -q @article[note=preprint] -T bib-noscrip %}
+
+    <!-- {% if site.kind.separate.article %}
 
     <h4>International</h4>
 
@@ -64,7 +66,7 @@
 
     {% bibliography -q @article -T bib-noscript %}
 
-    {% endif %}
+    {% endif %} -->
 
     <h3 id="publications_nojs_inproceedings">Conferences and Workshops</h3>
 
@@ -141,7 +143,9 @@
             <div class="tab-pane" id="publications_article">
                 <br/>
 
-                {% if site.kind.separate.article %}
+                {% bibliography -q @article[note!=preprint] %}
+
+                <!-- {% if site.kind.separate.article %}
 
                 <p><b>International</b><br/></p>
 
@@ -155,7 +159,7 @@
 
                 {% bibliography -q @article %}
 
-                {% endif %}
+                {% endif %} -->
 
             </div>
             <div class="tab-pane" id="publications_inproceedings">
@@ -204,7 +208,7 @@
             </div>
             <div class="tab-pane" id="publications_preprint">
                 <br />
-                {% bibliography -q @online %}
+                {% bibliography -q @article[note=preprint] %}
             </div>
         </div>
     </div>

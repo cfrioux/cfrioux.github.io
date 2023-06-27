@@ -57,7 +57,7 @@ contacts:
 research:
   presentation:
     overview: true
-    thesis: true
+    thesis: false
     publications: true
     software: true
   restriction:
@@ -84,9 +84,9 @@ alerts:
 kind:
   label: pp_kind # label used in .bib files to denote the kind (international/national) of references
   separate:  # should international/national references be separated: (true | false)
-    article: true
+    article: false
     inbook: false
-    inproceedings: true
+    inproceedings: false
 
 
 scholar:

@@ -91,8 +91,16 @@
 
 - name: Scientific popularizarion
   values:
+  - period: 2023
+    name: <a href="https://github.com/cfrioux/outreach" target="_blank"> Outreach activity on Metagenomics and Metabolic modelling </a>
+    role: Code and resources for an outreach activity. 
+    at:  Open source activity.
+  - period: 2023
+    name: <a href="https://math-interactions.u-bordeaux.fr/Nos-projets-evenements/Moi-Informaticienne-Moi-Mathematicienne" target="_blank"> MIMM, moi informaticienne, moi mathématicienne </a>
+    role: Free internship at the University of Bordeaux for young girls in 9th and 10th grade in order to encourage them to choose mathematics and computer science, allows them to discover training, research and jobs in these two disciplines.
+    at:  Bordeaux.
   - period: 2021 - ...
-    name: <a href="https://chiche-snt.fr/" target="_blank"> Chiche ! Un ou une scientifique, une classe" </a>
+    name: <a href="https://chiche-snt.fr/" target="_blank"> Chiche ! Un ou une scientifique, une classe </a>
     role: Visit of a scientist in high schools in order to advertise academic careers and computer science research while deconstructing stereotypes.
     at:  Bordeaux and its surrounding regions.
   - period: 2019
