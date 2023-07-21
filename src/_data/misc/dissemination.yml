@@ -1,5 +1,9 @@
 - name: Scientific communication
   values:
+  - period: 2023
+    name: Exploration of microbial ecosystems, from compositional patterns to metabolic models
+    role: Talk
+    at: Invited seminar, KU Leuven, Belgium
   - period: 2022
     name: Logic modelling of metabolism - from individual networks to communities
     role: Talk
@@ -91,6 +95,10 @@
 
 - name: Scientific popularizarion
   values:
+  - period: 2023
+    name: <a href="https://interstices.info/modeliser-les-communautes-bacteriennes-pour-mieux-comprendre-leur-fonctionnement/" target="_blank"> Scientific popularisation article on the interest of modelling the metabolism of bacterial communities </a>
+    role: With Simon Labarthe
+    at: Interstices
   - period: 2023
     name: <a href="https://github.com/cfrioux/outreach" target="_blank"> Outreach activity on Metagenomics and Metabolic modelling </a>
     role: Code and resources for an outreach activity. 
