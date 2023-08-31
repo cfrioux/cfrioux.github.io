@@ -125,17 +125,20 @@
     pdf = {https://inria.hal.science/hal-03858395}
 }
 
-@article{frioux:hal-03635862,
-    title = {{Accelerating metabolic models evaluation with statistical metamodels: application to Salmonella infection models}},
-    author = {Frioux, Cl{\'e}mence and Huet, Sylvie and Labarthe, Simon and Martinelli, Julien and Malou, Thibault and Sherman, David James and Taupin, Marie-Luce and Ugalde-Salas, Pablo},
-    URL = {https://hal.inrae.fr/hal-03635862},
-    doi = {in press},
-    journal = {{ESAIM: Proceedings and Surveys}},
-    year = {2022},
-    month = Apr,
-    PDF = {https://hal.inrae.fr/hal-03635862/file/main.pdf},
-    HAL_ID = {hal-03635862},
-    HAL_VERSION = {v1},
+@inproceedings{Frioux.2023sga,
+    year           = {2023},
+    title          = {{Accelerating metabolic models evaluation with statistical metamodels: application to Salmonella infection models}},
+    author         = {Frioux, Clémence and Huet, Sylvie and Labarthe, Simon and Martinelli, Julien and Malou, Thibault and Sherman, David and Taupin, Marie-Luce and Ugalde-Salas, Pablo},
+    booktitle      = {ESAIM: Proceedings and Surveys},
+    booktitleaddon = {CEMRACS 2021 - Data Assimilation and Reduced Modeling for High Dimensional Problems},
+    doi            = {10.1051/proc/202373187},
+    abstract       = {{Mathematical and numerical models are increasingly used in microbial ecology to model the fate of microbial communities in their ecosystem. These models allow to connect in a mechanistic framework species-level informations, such as the microbial genomes, with macro-scale features, such as species spatial distributions or metabolite gradients. Numerous models are built upon species-level metabolic models that predict the metabolic behaviour of a microbe by solving an optimization problem knowing its genome and its nutritional environment. However, screening the community dynamics with these metabolic models implies to solve such an optimization problem by species at each time step, leading to a significant computational load further increased by several orders of magnitude when spatial dimensions are added. In this paper, we propose a statistical framework based on Reproducing Kernel Hilbert Space (RKHS) metamodels that are used to provide fast approximations of the original metabolic model. The metamodel can replace the optimization step in the system dynamics, providing comparable outputs at a much lower computational cost. We will first build a system dynamics model of a simplified gut microbiota composed of a unique commensal bacterial strain in interaction with the host and challenged by a Salmonella infection. Then, the machine learning method will be introduced, and particularly the ANOVA-RKHS that will be exploited to achieve variable selection and model parsimony. A training dataset will be constructed with the original system dynamics model and hyper-parameters will be carefully chosen to provide fast and accurate approximations of the original model. Finally, the accuracy of the trained metamodels will be assessed, in particular by comparing the system dynamics outputs when the original model is replaced by its metamodel. The metamodel allows an overall relative error of 4.71\% but reducing the computational load by a speed-up factor higher than 45, while correctly reproducing the complex behaviour occurring during Salmonella infection. These results provide a proof-of-concept of the potentiality of machine learning methods to give fast approximations of metabolic model outputs and pave the way towards PDE-based spatio-temporal models of microbial communities including microbial metabolism and host-microbiota-pathogen interactions.}},
+    pages          = {187--217},
+    volume         = {73},
+    keywords       = {na},
+    PDF            = {https://hal.inrae.fr/hal-03635862/file/main.pdf},
+    HAL_ID         = {hal-03635862},
+    HAL_VERSION    = {v1}
 }
 
 @article{Karimi.2021, 
