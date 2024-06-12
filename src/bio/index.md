@@ -18,7 +18,7 @@ rank: 6
   {% include print_bio.html items=site.data.bio.education %}
 </div>
 
-<div class="row">
+<!-- <div class="row">
   <h2><span class="text-primary">International collaborations</span></h2>
   {% include print_bio.html items=site.data.bio.international %}
-</div>
+</div> -->

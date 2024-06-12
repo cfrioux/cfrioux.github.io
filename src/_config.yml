@@ -121,7 +121,7 @@ scholar:
   query: "@*"
 
 # other settings
-exclude:  ['Gemfile*', '*.sh', 'update_site.sh']
+exclude:  ['Gemfile*', '*.sh', 'update_site.sh', 'vendor']
 plugins:
   - jekyll-scholar
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem]
