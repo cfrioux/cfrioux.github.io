@@ -1,70 +1,41 @@
-- name: Engineer supervision
+- name: PhD students
   values:
-  - period: 2022 - 2024
-    name: Coralie Muller
-    role: Spatio-temporal modelling of microbial communities
-    at: Inria exploratory action <a href="https://www.inria.fr/en/slimmest" target="_blank">Slimmest</a>
-
-  - period: 2020 - 2022
-    name: Ariane Badoual
-    role: Metagenomic data treatment
-    at: Inria ADT engineer
-
-- name: PhD supervision
-  values:
-  - period: 2020 - 2023
-    name: Maxime Lecomte
-    role: Hybrid methods for numerical and discrete modelling of microbial communities
-    at: PhD student Inria-INRAE, co-supervised by H. Falentin (INRAE STLO) and D. Sherman (Inria).
-
   - period: 2022 - 2025
     name: Chabname Ghassemi Nedjad
-    role: Combinatorial problem solving for the detection of seeds in metabolic networks
-    at: PhD student Univ. Bordeaux, co-supervised by L. Paulevé (CNRS, LaBRI).
+    role: co-director (50%) with L. Paulevé (CNRS, LaBRI) #
+    at: Combinatorial problem solving for the detection of seeds in metabolic networks (Univ. Bordeaux).
 
-- name: Internship supervision
-  values:
-  - period: 2023
+  - period: 2023 - 2026
     name: Nicolas Maurice
-    role: Metagenomic assembly in complex ecosystems
-    at: Master 2 (6 months)  <a href="https://www.u-bordeaux.fr/formation/2018/PRMA_74/bio-informatique" target="_blank">Bio-informatique</a>, Univ. de Bordeaux. Co-supervised with C. Lemaitre (Inria)
+    role: Co-supervisor (33%) with R. Vicedomini (CNRS, IRISA-Inria Rennes) and C. Lemaitre (Inria Rennes)
+    at: Metagenomic assembly in complex microbial communities (PEPR Mistic, Inria, INRAE).
 
-  - period: 2022
+  - period: 2024 - 2027
+    name: Coralie Muller
+    role: co-director (50%) with S. Prigent (INRAE BFP)
+    at: Generation of metabolomic informed models of metabolisms in mcirobial communities (PEPR Mistic, Inria, INRAE).
+
+  - period: 2024 - 2027
+    name: Mathilde Sola
+    role: Co-supervisor (35%) with M. Berland (INRAE MGPS) and P. Veiga (INRAE MGPS)
+    at: Characterization of "gut microbiome-diet-health" relationships in humans through combined approaches of computational microbial ecology, metabolic modeling, and AI (INRAE-Inria).
+
+
+- name: Engineers
+  values:
+  - period: 2022 - 2024
     name: Léonard Brindel
-    role: Metagenomic data analysis
+    role: Inria ADT engineer
+    at: Visualisation of metabolic potential screening in microbial communities
+
+- name: Interns
+  values:
+  - period: 2024
+    name: Juliette Gronier
+    role: Numerical metabolic modelling of microbial communities
+    at: Bachelor (6 weeks)  <a href="https://informatique.ens-lyon.fr/en" target="_blank">Computer science, ENS LYon</a>
+
+  - period: 2024
+    name: Juliette Audemard
+    role: Metabolic modelling of cyanobacteria and their heterotrophic bacterial communities in the context of freshwater blooms (INRAE HOLOFLUX project lead by Binta Diémé & Nicolas Creusot).
     at: Master 2 (6 months)  <a href="https://www.u-bordeaux.fr/formation/2018/PRMA_74/bio-informatique" target="_blank">Bio-informatique</a>, Univ. de Bordeaux. Co-supervised with F. Salin (INRAE)
-
-  - period: 2022
-    name: Chabname Ghassemi Nedjad
-    role: Metabolic modelling for large metagenomic studies
-    at: Master 2 (6 months)  <a href="https://odf.u-paris.fr/fr/offre-de-formation/master-XB/sciences-technologies-sante-STS/bio-informatique-K2VO60MU/master-bioinformatique-parcours-biologie-informatique-IJTUMHHO.html" target="_blank">Bio-informatique</a>, Univ. Paris Cité
-
-  - period: 2021
-    name: Mathieu Bolteau
-    role: Reverse ecology of microbial communities
-    at: Master 2 (6 months)  <a href="https://www.u-bordeaux.fr/formation/2018/PRMA_74/bio-informatique" target="_blank">Bio-informatique</a>, Univ. de Bordeaux
-
-  - period: 2020
-    name: Maxime Lecomte
-    role: Metabolic modelling of a cheese bacterial community
-    at: Master 2 (6 months)  <a href="https://www.u-bordeaux.fr/formation/2018/PRMA_74/bio-informatique" target="_blank">Bio-informatique</a>, Univ. de Bordeaux. Co-supervised with S. Labarthe (INRAE)
-
-  - period: 2020
-    name: Ariane Badoual
-    role: Modelling competition in microbial communities
-    at: Master 2 (6 months) <a href="https://sve.univ-rennes1.fr/bio-informatique" target="_blank">Bio-Informatique et Génomique</a>, Univ. de Rennes 1
-
-  - period: 2019
-    name: Margot Wagner
-    role: Analysis of brown algae and microbiota's physiological response to varying growth conditions.
-    at: Master 2 (6 months)  <a href="https://osur.univ-rennes1.fr/MODE/" target="_blank">Modélisation en écologie</a>, Univ. de Rennes 1
-
-  - period: 2018
-    name: Enora Fremy
-    role: In silico prediction of brown-algal bacterial interactions
-    at: Master 2 (6 months) <a href="https://sve.univ-rennes1.fr/bio-informatique" target="_blank">Bio-Informatique et Génomique</a>, Univ. de Rennes 1
-
-  - period: 2017
-    name: Claire Lippold
-    role: Exploration and characterization of the microbiome associated to <em>Ectocarpus subulatus</em> str. BFT
-    at: Master 1 (3 months) <a href="https://sve.univ-rennes1.fr/bio-informatique" target="_blank">Bio-Informatique et Génomique</a>, Univ. de Rennes 1. Co-supervised with C. Trottier (Univ. Nantes)

@@ -28,6 +28,11 @@ rank: 2
     </div>
 </div>
 
+{% if site.research.presentation.posters %}
+<h2><span class="text-primary">Scientific posters</span></h2>
+{% include posters.html %}
+{% endif %}
+
 {% if site.research.presentation.software %}
 <h2><span class="text-primary">Software</span></h2>
 {% include software.html %}

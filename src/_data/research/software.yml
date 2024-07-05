@@ -1,5 +1,20 @@
-- year: 2019
-  kind: Automatic metabolic network reconstruction with Pathway Tools and graph-based analysis of metabolic capabilities for the collection of networks, individually and collectively
+- year: 2024
+  kind: Dynamic metabolic modelling of a microbial community from pure culture and community culture data
+  name: Tango models
+  links: <a href="https://forgemia.inra.fr/tango/tango_models" target="_blank">Gitlab project</a>
+
+- year: 2023
+  kind: Automatic Comparison of Metabolic networks from heterogeneously annotated genomes
+  name: AuCoMe
+  links: <a href="https://github.com/AuReMe/aucome" target="_blank"><i class="fab fa-github"></i> project</a>
+
+- year: 2021
+  kind: A Python wrapper for multiprocessing the Pathway Tools software
+  name: mpwt
+  links: <a href="https://pypi.python.org/pypi/mpwt" target="_blank"><i class="fab fa-python"></i> package</a>, <a href="https://github.com/AuReMe/mpwt" target="_blank"><i class="fab fa-github"></i> project</a>
+
+- year: 2020
+  kind: Systematic screening of microbial communities' metabolic potential
   name: Metage2Metabo
   links: <a href="https://pypi.org/project/Metage2Metabo/" target="_blank"><i class="fab fa-python"></i> package</a>, <a href="https://github.com/AuReMe/metage2metabo" target="_blank"><i class="fab fa-github"></i> project</a>
 

@@ -1,0 +1,14 @@
+<dl class="dl-horizontal">
+    {% for grouping in include.items %}
+        <h3><span class="text-primary">{{ grouping.year }}</span></h3>
+        {% for item in grouping.values %}
+            <dl class="dl-horizontal">
+                <span class="text-primary"><strong>{{ item.type }}</strong></span><br />
+                <em>{{ item.name }}</em>
+                <em>{{ item.where }}</em><br />
+                <em>{{ item.number }}</em>
+                <br />
+            </dl>
+        {% endfor %}
+    {% endfor %}
+</dl>

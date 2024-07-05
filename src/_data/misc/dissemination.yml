@@ -1,5 +1,13 @@
 - name: Scientific communication
   values:
+  - period: 2024
+    name: Exploration of microbial ecosystems - from compositional patterns to metabolic models
+    role: Talk
+    at: Keynote speaker, JOBIM Toulouse, France
+  - period: 2023
+    name: Exploration of microbial ecosystems, from compositional patterns to metabolic models
+    role: Talk
+    at: Invited seminar, Plant Health Institute, Montpellier, France
   - period: 2023
     name: Exploration of microbial ecosystems, from compositional patterns to metabolic models
     role: Talk
@@ -93,33 +101,33 @@
     role: Poster
     at: École Jeunes Chercheurs CNRS – 3ème École thématique de modélisation formelle des réseaux de régulation biologique <a href="http://i3s.unice.fr/bioregul/" target="_blank">Bioregul</a>, June 6th-10th, Porquerolles
 
-- name: Scientific popularizarion
-  values:
-  - period: 2023
-    name: <a href="https://interstices.info/modeliser-les-communautes-bacteriennes-pour-mieux-comprendre-leur-fonctionnement/" target="_blank"> Scientific popularisation article on the interest of modelling the metabolism of bacterial communities </a>
-    role: With Simon Labarthe
-    at: Interstices
-  - period: 2023
-    name: <a href="https://github.com/cfrioux/outreach" target="_blank"> Outreach activity on Metagenomics and Metabolic modelling </a>
-    role: Code and resources for an outreach activity. 
-    at:  Open source activity.
-  - period: 2023
-    name: <a href="https://math-interactions.u-bordeaux.fr/Nos-projets-evenements/Moi-Informaticienne-Moi-Mathematicienne" target="_blank"> MIMM, moi informaticienne, moi mathématicienne </a>
-    role: Free internship at the University of Bordeaux for young girls in 9th and 10th grade in order to encourage them to choose mathematics and computer science, allows them to discover training, research and jobs in these two disciplines.
-    at:  Bordeaux.
-  - period: 2021 - ...
-    name: <a href="https://chiche-snt.fr/" target="_blank"> Chiche ! Un ou une scientifique, une classe </a>
-    role: Visit of a scientist in high schools in order to advertise academic careers and computer science research while deconstructing stereotypes.
-    at:  Bordeaux and its surrounding regions.
-  - period: 2019
-    name: <a href="https://norwichsciencefestival.co.uk/about/norwich-science-festival-2019/" target="_blank"> "Microbes of the gut, the good and the bad in us" </a>
-    role: Presentation of research on the gut microbiota by scientists of the <a href="https://quadram.ac.uk/" target="_blank">Quadram Institute</a> and the <a href="https://www.earlham.ac.uk/" target="_blank">Earlham Institute</a>
-    at:  <a href="https://norwichsciencefestival.co.uk/" target="_blank">Norwich Science Festival</a>, October 2019 — Norwich, UK
-  - period: 2016
-    name: <a href="http://dai.ly/x4a2r5b" target="_blank">Une petite histoire de symbiose(s)</a>
-    role: 2nd jury prize
-    at: Very Short Films Festival <a href="http://www.sciences-en-courts.fr/" target="_blank">Sciences en Court[s]</a>
-  - period: 2016
-    name: <a href="http://dai.ly/x4b068b" target="_blank">Une petite histoire de symbiose(s)</a>
-    role: <a href="https://jobim2016.sciencesconf.org/" target="_blank">JOBIM 2016</a>
-    at: Short Film Festival <a href="https://jebif.fr/fr/2016/02/concours-video-jobim-2016/" target="_blank">Bioinfuse</a>
+# - name: Scientific popularizarion
+#   values:
+#   - period: 2023
+#     name: <a href="https://interstices.info/modeliser-les-communautes-bacteriennes-pour-mieux-comprendre-leur-fonctionnement/" target="_blank"> Scientific popularisation article on the interest of modelling the metabolism of bacterial communities </a>
+#     role: With Simon Labarthe
+#     at: Interstices
+#   - period: 2023
+#     name: <a href="https://github.com/cfrioux/outreach" target="_blank"> Outreach activity on Metagenomics and Metabolic modelling </a>
+#     role: Code and resources for an outreach activity. 
+#     at:  Open source activity.
+#   - period: 2023
+#     name: <a href="https://math-interactions.u-bordeaux.fr/Nos-projets-evenements/Moi-Informaticienne-Moi-Mathematicienne" target="_blank"> MIMM, moi informaticienne, moi mathématicienne </a>
+#     role: Free internship at the University of Bordeaux for young girls in 9th and 10th grade in order to encourage them to choose mathematics and computer science, allows them to discover training, research and jobs in these two disciplines.
+#     at:  Bordeaux.
+#   - period: 2021 - ...
+#     name: <a href="https://chiche-snt.fr/" target="_blank"> Chiche ! Un ou une scientifique, une classe </a>
+#     role: Visit of a scientist in high schools in order to advertise academic careers and computer science research while deconstructing stereotypes.
+#     at:  Bordeaux and its surrounding regions.
+#   - period: 2019
+#     name: <a href="https://norwichsciencefestival.co.uk/about/norwich-science-festival-2019/" target="_blank"> "Microbes of the gut, the good and the bad in us" </a>
+#     role: Presentation of research on the gut microbiota by scientists of the <a href="https://quadram.ac.uk/" target="_blank">Quadram Institute</a> and the <a href="https://www.earlham.ac.uk/" target="_blank">Earlham Institute</a>
+#     at:  <a href="https://norwichsciencefestival.co.uk/" target="_blank">Norwich Science Festival</a>, October 2019 — Norwich, UK
+#   - period: 2016
+#     name: <a href="http://dai.ly/x4a2r5b" target="_blank">Une petite histoire de symbiose(s)</a>
+#     role: 2nd jury prize
+#     at: Very Short Films Festival <a href="http://www.sciences-en-courts.fr/" target="_blank">Sciences en Court[s]</a>
+#   - period: 2016
+#     name: <a href="http://dai.ly/x4b068b" target="_blank">Une petite histoire de symbiose(s)</a>
+#     role: <a href="https://jobim2016.sciencesconf.org/" target="_blank">JOBIM 2016</a>
+#     at: Short Film Festival <a href="https://jebif.fr/fr/2016/02/concours-video-jobim-2016/" target="_blank">Bioinfuse</a>

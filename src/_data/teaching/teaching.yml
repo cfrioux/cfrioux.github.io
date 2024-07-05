@@ -1,0 +1,62 @@
+- year: 2023-2024
+  values:
+  - name: Bioinformatics - graph analysis, microbial ecology and metabolic modelling.
+    where: <a href="https://enstbb.bordeaux-inp.fr/fr" target="_blank">ENSTBB (Bordeaux INP)</a>
+    type: Master - Engineering school
+    number: 2 x 10h
+  - name: Answer Set Programming, symbolic artificial intelligence.
+    where: <a href="https://enseirb-matmeca.bordeaux-inp.fr/fr" target="_blank">ENSEIRB-MATMECA (Bordeaux INP)</a>
+    type: Master - Engineering school
+    number: 10h
+  - name: Answer Set Programming - introduction to ASP, hands-on sessions.
+    where: <a href="https://ed-mi.u-bordeaux.fr/" target="_blank">Doctoral school in computer science and mathematics</a>, Univ. Bordeaux
+    type: Graduate school
+    number: 7h
+- year: 2022-2023
+  values:
+  - name: Bioinformatics - graph analysis, microbial ecology and metabolic modelling.
+    where: <a href="https://enstbb.bordeaux-inp.fr/fr" target="_blank">ENSTBB (Bordeaux INP)</a>
+    type: Master - Engineering school
+    number: 12h
+  - name: Answer Set Programming, symbolic artificial intelligence.
+    where: <a href="https://enseirb-matmeca.bordeaux-inp.fr/fr" target="_blank">ENSEIRB-MATMECA (Bordeaux INP)</a>
+    type: Master - Engineering school
+    number: 10h
+- year: 2021-2022
+  values:
+  - name: Bioinformatics - graph analysis, microbial ecology and metabolic modelling.
+    where: <a href="https://enstbb.bordeaux-inp.fr/fr" target="_blank">ENSTBB (Bordeaux INP)</a>
+    type: Master - Engineering school
+    number: 10h
+  - name: Answer Set Programming, symbolic artificial intelligence.
+    where: <a href="https://enseirb-matmeca.bordeaux-inp.fr/fr" target="_blank">ENSEIRB-MATMECA (Bordeaux INP)</a>
+    type: Master - Engineering school
+    number: 10h
+  - name: Answer Set Programming - introduction to ASP, hands-on sessions.
+    where: <a href="https://ed-mi.u-bordeaux.fr/" target="_blank">Doctoral school in computer science and mathematics</a>, Univ. Bordeaux
+    type: Graduate school
+    number: 7h
+- year: 2020-2021
+  values:
+  - name: Bioinformatics - graph analysis, microbial ecology and metabolic modelling.
+    where: <a href="https://enstbb.bordeaux-inp.fr/fr" target="_blank">ENSTBB (Bordeaux INP)</a>
+    type: Master - Engineering school
+    number: 10h
+  - name: Python
+    where: Univ. Bordeaux
+    type: Licence
+    number: 42h
+  - name: Programming project supervision - supervision of programming projects.
+    where: <a href="https://www.u-bordeaux.fr/formation/2018/PRMA_74/bio-informatique" target="_blank">Bioinformatics Master's degree</a>, Univ. de Bordeaux
+    type: Master
+    number: 3h
+- year: 2017-2018
+  values:
+  - name: Algorithmique et programmation, LaTeX, suivi de projet Python, optimisation.
+    where: <a href="http://www.ensai.fr/" target="_blank">ENSAI</a>
+    type: Licence
+    number: 20h
+  - name: Bureautique, programmation scientifique.
+    where: <a href="https://www.univ-rennes1.fr/" target="_blank">Univ. de Rennes 1</a>
+    type: Licence
+    number: 20h

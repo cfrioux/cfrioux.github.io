@@ -1,0 +1,48 @@
+- name: News
+  values:
+  - year: 2024
+    name: Juliette Gronier, a Bachelor student in computer science at <a href="https://www.ens-lyon.fr/en/" target="_blank">ENS Lyon</a> joined the team as an intern for 6 weeks </li>
+    month: June
+    type: New team member
+    number: 7
+  - period: 2024
+    name: Juliette Audemard (<a href="https://holoflux.hub.inrae.fr " target="_blank">COMIC INRAE project</a>) will present a poster at <a href="https://jobim2024.sciencesconf.org" target="_blank">JOBIM 2024</a>
+    month: June
+    type: Conference
+    number: 6
+  - period: 2024
+    name: I will be a keynote speaker at the French conference of computational biology <ahref="https://jobim2024.sciencesconf.org" target="_blank">JOBIM 2024</a
+    month: June
+    type: Conference
+    number: 5
+  - period: 2024
+    name: Maxime Lecomte defended his <a href="https://hal.inrae.fr/tel-04583312v1" target="_blank">PhD</a> on explainable approaches of metabolic modelling to decipher microbial ecosystems
+    month: April
+    type: PhD defense
+    number: 4
+  - period: 2024
+    name: Juliette Audemard, a masters student in computational biology at Université Paris Cité joined the team for a 5 month internship (<a href="https://holoflux.hub.inrae.fr " target="_blank">COMIC INRAE project</a>)
+    month: April
+    type: New team member
+    number: 3
+  - period: 2024
+    name: Maxime Lecomte published one of his PhD papers on <a href="https://www.sciencedirect.com/science/article/pii/S1096717624000302" target="_blank">metabolic modelling of a cheese community</a>, a collaboration with <a href="https://stlo.rennes.hub.inrae.fr" target="_blank">INRAE STLO</a>
+    month: January
+    type: Publication
+    number: 2
+  - period: 2024
+    name: We published a <a href="https://dx.doi.org/10.1111/1751-7915.14396" target="_blank">review on the articulation of metabolic modelling with metagenomics</a>, together with the <a href="https://quadram.ac.uk/falk-hildebrand/" target="_blank">Quadram Institute</a>
+    month: January
+    type: Publication
+    number: 1
+  - period: 2023
+    name: Nicolas Maurice starts his PhD metagenomic assembly for complex ecosystems, a collaboration with <a href="https://team.inria.fr/genscale/" target="_blank">Inria Genscale</a> in the <a href="https://project.inria.fr/mistic/" target="_blank">MISTIC project</a>
+    month: October
+    type: New team member
+    number: 2
+  - period: 2023
+    name: Publication of the <a href="https://www.cell.com/cell-host-microbe/fulltext/S1931-3128(23)00217-2" target="_blank">Enterosignatures paper</a>, a collaboration with the <a href="https://quadram.ac.uk/falk-hildebrand/" target="_blank">Quadram Institute</a> and <a href="https://www.earlham.ac.uk/scientific-group/quince-group" target="_blank">Earlham Institute</a>
+    month: July
+    type: Publication
+    number: 1
+    

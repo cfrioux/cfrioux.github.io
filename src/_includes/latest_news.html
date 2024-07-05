@@ -1,0 +1,22 @@
+<!-- {% assign current_year='now'|date:"%Y" %}
+{% assign max_news=max|minus: include.nbnews|plus: 1 %}
+{% assign min=max|minus: include.nbnews|plus: 1 %}
+{% assign smin=min|plus: "" %}
+ -->
+
+{% assign i=1 %}
+{% for grouping in include.items %}
+    {% for item in grouping.values %}
+        {% if i == 5 %}
+            {% break %}
+        {% else %}
+            <div class="text-justify">
+                {{ item.month }} {{ grouping.year }} -- <b>{{ item.type }}</b> -- <em>{{ item.name }}</em> <br />
+            </div>
+            <dl class="dl-horizontal">
+                ~~~
+            </dl>
+            {% assign i=i|plus:1 %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}

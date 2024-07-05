@@ -1,7 +1,7 @@
 ---
 layout: default
 title: contact
-rank: 7
+rank: 11
 ---
 
 <div class="starter-template">
