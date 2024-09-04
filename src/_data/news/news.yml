@@ -1,5 +1,13 @@
 - year: 2024
   values:
+  - name: Mathilde Sola starts her INRAE-Inria PhD, hosted in <a href="https://mgps.eu" target="_blank">INRAE Metagenopolis lab</a>, supervised by Magali Berland, Patrick Veiga and myself.
+    month: September
+    type: New team member
+    number: 10
+  - name: Coralie Muller starts her PhD in the team, supervised by <a href="https://cv.hal.science/sprigent" target="_blank">Sylvain Prigent</a> (INRAE BFP) and myself.
+    month: September
+    type: New team member
+    number: 9
   - name: H2Rumen, a project led by Rafael Muñoz-Tamayo (INRAE MoSAR) has been funded by ANR. More <a href="https://www.linkedin.com/feed/update/urn:li:share:7214882443302965252/" target="_blank">info</a>.
     month: July
     type: New project

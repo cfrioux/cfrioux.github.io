@@ -1,49 +1,44 @@
-- year: 2024
+- year: 
   kind: Dynamic metabolic modelling of a microbial community from pure culture and community culture data
   name: Tango models
   links: <a href="https://forgemia.inra.fr/tango/tango_models" target="_blank">Gitlab project</a>
 
-- year: 2023
+- year: 
   kind: Automatic Comparison of Metabolic networks from heterogeneously annotated genomes
   name: AuCoMe
   links: <a href="https://github.com/AuReMe/aucome" target="_blank"><i class="fab fa-github"></i> project</a>
 
-- year: 2021
+- year: 
   kind: A Python wrapper for multiprocessing the Pathway Tools software
   name: mpwt
   links: <a href="https://pypi.python.org/pypi/mpwt" target="_blank"><i class="fab fa-python"></i> package</a>, <a href="https://github.com/AuReMe/mpwt" target="_blank"><i class="fab fa-github"></i> project</a>
 
-- year: 2020
+- year: 
   kind: Systematic screening of microbial communities' metabolic potential
   name: Metage2Metabo
   links: <a href="https://pypi.org/project/Metage2Metabo/" target="_blank"><i class="fab fa-python"></i> package</a>, <a href="https://github.com/AuReMe/metage2metabo" target="_blank"><i class="fab fa-github"></i> project</a>
 
-- year: 2018
+- year: 
   kind: Screening of microbiota metabolic capabilities and selection of minimal (minimal-size, minimal-exchanges) communities
   name: MiSCoTO
   links: <a href="https://pypi.org/project/Miscoto/" target="_blank"><i class="fab fa-python"></i> package</a>, <a href="https://github.com/cfrioux/miscoto" target="_blank"><i class="fab fa-github"></i> project</a>
 
-- year: 2017
+- year: 
   kind: Traceable and reproducible reconstruction of metabolic networks
   name: AuReMe
   links: <a href="https://hub.docker.com/r/dyliss/aureme-img/" target="_blank"><i class="fab fa-docker"></i> image</a>, <a href="https://aureme.genouest.org" target="_blank">project ↗</a>
 
-- year: 2017
+- year: 
   kind: Graph-based and constraint-based hybrid gap-filling of metabolic networks
   name: Fluto
   links: <a href="https://anaconda.org/cfrioux/flutopy" target="_blank"><i class="fab fa-python"></i> Conda package</a>, <a href="https://github.com/cfrioux/fluto" target="_blank"><i class="fab fa-github"></i> project</a>
 
-- year: 2016
+- year: 
   kind: Graph-based analysis tools for metabolic networks
   name: MeNeTools
   links: <a href="https://pypi.org/project/MeneTools/" target="_blank"><i class="fab fa-python"></i> package</a>, <a href="https://github.com/cfrioux/MeneTools" target="_blank"><i class="fab fa-github"></i> project</a>
 
-- year: 2015
+- year: 
   kind: Graph-based gap-filling of metabolic networks
   name: Meneco
   links: <a href="https://pypi.org/project/meneco/" target="_blank"><i class="fab fa-python"></i> package</a>, <a href="https://github.com/bioasp/meneco" target="_blank"><i class="fab fa-github"></i> project</a>
-
-- year:
-  kind:
-  name:
-  links:  
