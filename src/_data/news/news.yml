@@ -1,8 +1,12 @@
 - year: 2024
   values:
+  - name: New preprint - Seed inference in metabolic networks with Seed2LP, on <a href="https://www.biorxiv.org/content/10.1101/2024.09.26.615309v1" target="BioRxiv</a>
+    month: September
+    type: Publication
+    number: 11
   - name: Mathilde Sola starts her INRAE-Inria PhD, hosted in <a href="https://mgps.eu" target="_blank">INRAE Metagenopolis lab</a>, supervised by Magali Berland, Patrick Veiga and myself.
     month: September
-    type: New team member
+    type: Publication
     number: 10
   - name: Coralie Muller starts her PhD in the team, supervised by <a href="https://cv.hal.science/sprigent" target="_blank">Sylvain Prigent</a> (INRAE BFP) and myself.
     month: September

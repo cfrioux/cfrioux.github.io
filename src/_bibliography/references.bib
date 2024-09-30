@@ -31,40 +31,22 @@
 
 % TODO : check no duplicates & no false positives on HAL
 
-%
-% ----- ARTICLES -----
-%
-@article{Lecomte.2024,
-  year        = {2024},
-  title       = {{Revealing the dynamics and mechanisms of bacterial interactions in cheese production with metabolic modelling}},
-  author      = {Lecomte, Maxime and Cao, Wenfan and Aubert, Julie and Sherman, David James and Falentin, Hélène and Frioux, Clémence and Labarthe, Simon},
-  journal     = {Metabolic Engineering},
-  issn        = {1096-7176},
-  doi         = {10.1016/j.ymben.2024.02.014},
-  pmid        = {38460783},
-  abstract    = {{Cheese taste and flavour properties result from complex metabolic processes occurring in microbial communities. A deeper understanding of such mechanisms makes it possible to improve both industrial production processes and end-product quality through the design of microbial consortia. In this work, we caracterise the metabolism of a three-species community consisting of Lactococcus lactis, Lactobacillus plantarum and Propionibacterium freudenreichii during a seven-week cheese production process. Using genome-scale metabolic models and omics data integration, we modeled and calibrated individual dynamics using monoculture experiments, and coupled these models to capture the metabolism of the community. This model accurately predicts the dynamics of the community, enlightening the contribution of each microbial species to organoleptic compound production. Further metabolic exploration revealed additional possible interactions between the bacterial species. This work provides a methodological framework for the prediction of community-wide metabolism and highlights the added value of dynamic metabolic modeling for the comprehension of fermented food processes.}},
-  keywords    = {},
-  local-url   = {file://localhost/Users/cfrioux/Documents/Papers%20Library/Lecomte-Revealing%20the%20dynamics%20and%20mechanisms%20of%20bacterial%20interactions%20in%20cheese%20production%20with%20metabolic%20modelling-2024-Metabolic%20Engineering_3.pdf},
-  hal_id      = {hal-04088301},
-  hal_version = {v2},
-  keywords    = {na}
-}
 
+%
+% ---- PREPRINTS ----
+% 
 
-@article{Cerk.2024,
-  year     = {2024},
-  title    = {{Community‐scale models of microbiomes: Articulating metabolic modelling and metagenome sequencing}},
-  author   = {Cerk, Klara and Ugalde‐Salas, Pablo and Nedjad, Chabname Ghassemi and Lecomte, Maxime and Muller, Coralie and Sherman, David J. and Hildebrand, Falk and Labarthe, Simon and Frioux, Clémence},
-  journal  = {Microbial Biotechnology},
-  issn     = {1751-7915},
-  doi      = {10.1111/1751-7915.14396},
-  pmid     = {38243750},
-  pmcid    = {PMC10832553},
-  abstract = {{Building models is essential for understanding the functions and dynamics of microbial communities. Metabolic models built on genome‐scale metabolic network reconstructions (GENREs) are especially relevant as a means to decipher the complex interactions occurring among species. Model reconstruction increasingly relies on metagenomics, which permits direct characterisation of naturally occurring communities that may contain organisms that cannot be isolated or cultured. In this review, we provide an overview of the field of metabolic modelling and its increasing reliance on and synergy with metagenomics and bioinformatics. We survey the means of assigning functions and reconstructing metabolic networks from (meta‐)genomes, and present the variety and mathematical fundamentals of metabolic models that foster the understanding of microbial dynamics. We emphasise the characterisation of interactions and the scaling of model construction to large communities, two important bottlenecks in the applicability of these models. We give an overview of the current state of the art in metagenome sequencing and bioinformatics analysis, focusing on the reconstruction of genomes in microbial communities. Metagenomics benefits tremendously from third‐generation sequencing, and we discuss the opportunities of long‐read sequencing, strain‐level characterisation and eukaryotic metagenomics. We aim at providing algorithmic and mathematical support, together with tool and application resources, that permit bridging the gap between metagenomics and metabolic modelling. With this review we articulate two important topics in the context of deciphering the role and functions of microbial communities: metabolic modeling and metagenomics. We survey the methodological approaches, highlight the changes raised by third generation sequencing, and provide resources to bridge the gaps between the sequencing reads and the models.}},
-  pages    = {e14396},
-  number   = {1},
-  volume   = {17},
-  keywords = {na}
+@article{GhassemiNedjad.2024,
+    year     = {2024},
+    title    = {{Seed2LP: seed inference in metabolic networks for reverse ecology applications}},
+    author   = {Chabname Ghassemi-Nedjad and Bolteau, Mathieu and Bourneuf, Lucas and Pauleve, Loic and Frioux, Clemence},
+    doi      = {10.1101/2024.09.26.615309},
+    abstract = {{A challenging problem in microbiology is to determine nutritional requirements of microorganisms and culture them, especially for the microbial dark matter detected solely with culture-independent methods. The latter foster an increasing amount of genomic sequences that can be explored with reverse ecology approaches to raise hypotheses on the corresponding populations. Building upon genome scale metabolic networks (GSMNs) obtained from genome annotations, metabolic models predict contextualised phenotypes using nutrient information. We developed the tool Seed2LP, addressing the inverse problem of predicting source nutrients, or seeds, from a GSMN and a metabolic objective. The originality of Seed2LP is its hybrid model, combining a scalable and discrete Boolean approximation of metabolic activity, with the numerically accurate flux balance analysis (FBA). Seed inference is highly customisable, with multiple search and solving modes, exploring the search space of external and internal metabolites combinations. Application to a benchmark of 107 curated GSMNs highlights the usefulness of a logic modelling method over a graph-based approach to predict seeds, and the relevance of hybrid solving to satisfy FBA constraints. Focusing on the dependency between metabolism and environment, Seed2LP is a computational support contributing to address the multifactorial challenge of culturing possibly uncultured microorganisms. Seed2LP is available on https://github.com/bioasp/seed2lp.}},
+    keywords = {},
+    journal      = {bioRxiv},
+    note         = {preprint},
+    pdf          = {https://www.biorxiv.org/content/10.1101/2024.09.26.615309v1.full.pdf},
+    hal_id       = {hal-04713829}
 }
 
 @article{Belcour2022.03.16.484574,
@@ -79,7 +61,44 @@
     journal      = {bioRxiv},
     note         = {preprint},
     pdf          = {https://www.biorxiv.org/content/10.1101/2022.03.16.484574v1.full.pdf},
-    HAL_ID       = {hal-03223662}
+    hal_id       = {hal-03223662}
+}
+
+
+%
+% ----- ARTICLES -----
+%
+@article{Lecomte.2024,
+    year        = {2024},
+    title       = {{Revealing the dynamics and mechanisms of bacterial interactions in cheese production with metabolic modelling}},
+    author      = {Lecomte, Maxime and Cao, Wenfan and Aubert, Julie and Sherman, David James and Falentin, Hélène and Frioux, Clémence and Labarthe, Simon},
+    journal     = {Metabolic Engineering},
+    issn        = {1096-7176},
+    doi         = {10.1016/j.ymben.2024.02.014},
+    pmid        = {38460783},
+    abstract    = {{Cheese taste and flavour properties result from complex metabolic processes occurring in microbial communities. A deeper understanding of such mechanisms makes it possible to improve both industrial production processes and end-product quality through the design of microbial consortia. In this work, we caracterise the metabolism of a three-species community consisting of Lactococcus lactis, Lactobacillus plantarum and Propionibacterium freudenreichii during a seven-week cheese production process. Using genome-scale metabolic models and omics data integration, we modeled and calibrated individual dynamics using monoculture experiments, and coupled these models to capture the metabolism of the community. This model accurately predicts the dynamics of the community, enlightening the contribution of each microbial species to organoleptic compound production. Further metabolic exploration revealed additional possible interactions between the bacterial species. This work provides a methodological framework for the prediction of community-wide metabolism and highlights the added value of dynamic metabolic modeling for the comprehension of fermented food processes.}},
+    keywords    = {},
+    local-url   = {file://localhost/Users/cfrioux/Documents/Papers%20Library/Lecomte-Revealing%20the%20dynamics%20and%20mechanisms%20of%20bacterial%20interactions%20in%20cheese%20production%20with%20metabolic%20modelling-2024-Metabolic%20Engineering_3.pdf},
+    hal_id      = {hal-04088301},
+    hal_version = {v2},
+    keywords    = {na}
+    }
+
+
+@article{Cerk.2024,
+    year     = {2024},
+    title    = {{Community‐scale models of microbiomes: Articulating metabolic modelling and metagenome sequencing}},
+    author   = {Cerk, Klara and Ugalde‐Salas, Pablo and Nedjad, Chabname Ghassemi and Lecomte, Maxime and Muller, Coralie and Sherman, David J. and Hildebrand, Falk and Labarthe, Simon and Frioux, Clémence},
+    journal  = {Microbial Biotechnology},
+    issn     = {1751-7915},
+    doi      = {10.1111/1751-7915.14396},
+    pmid     = {38243750},
+    pmcid    = {PMC10832553},
+    abstract = {{Building models is essential for understanding the functions and dynamics of microbial communities. Metabolic models built on genome‐scale metabolic network reconstructions (GENREs) are especially relevant as a means to decipher the complex interactions occurring among species. Model reconstruction increasingly relies on metagenomics, which permits direct characterisation of naturally occurring communities that may contain organisms that cannot be isolated or cultured. In this review, we provide an overview of the field of metabolic modelling and its increasing reliance on and synergy with metagenomics and bioinformatics. We survey the means of assigning functions and reconstructing metabolic networks from (meta‐)genomes, and present the variety and mathematical fundamentals of metabolic models that foster the understanding of microbial dynamics. We emphasise the characterisation of interactions and the scaling of model construction to large communities, two important bottlenecks in the applicability of these models. We give an overview of the current state of the art in metagenome sequencing and bioinformatics analysis, focusing on the reconstruction of genomes in microbial communities. Metagenomics benefits tremendously from third‐generation sequencing, and we discuss the opportunities of long‐read sequencing, strain‐level characterisation and eukaryotic metagenomics. We aim at providing algorithmic and mathematical support, together with tool and application resources, that permit bridging the gap between metagenomics and metabolic modelling. With this review we articulate two important topics in the context of deciphering the role and functions of microbial communities: metabolic modeling and metagenomics. We survey the methodological approaches, highlight the changes raised by third generation sequencing, and provide resources to bridge the gaps between the sequencing reads and the models.}},
+    pages    = {e14396},
+    number   = {1},
+    volume   = {17},
+    keywords = {na}
 }
 
 @article{Frioux.2023,

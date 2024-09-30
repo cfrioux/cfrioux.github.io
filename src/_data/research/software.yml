@@ -1,4 +1,9 @@
 - year: 
+  kind: Inference of seed metabolites in metabolic networks
+  name: Seed2LP
+  links: <a href="https://github.com/bioasp/seed2lp" target="_blank"><i class="fab fa-github"></i> project</a>
+
+- year: 
   kind: Dynamic metabolic modelling of a microbial community from pure culture and community culture data
   name: Tango models
   links: <a href="https://forgemia.inra.fr/tango/tango_models" target="_blank">Gitlab project</a>
