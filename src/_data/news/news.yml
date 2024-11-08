@@ -1,5 +1,13 @@
 - year: 2024
   values:
+  - name: Simon Labarthe from Pleiade, other colleagues from Bordeaux and myself oganise the <a href="https://jobim2025.labri.fr" target="_blank">JOBIM 2025 Conference</a>: the French national conference on Bioinformatics. 
+    month: November
+    type: Conference organisation
+    number: 12
+  - name: Juliette Audemard is coming back to the team for her master's project. 
+    month: November
+    type: New team member
+    number: 11
   - name: New preprint - Seed inference in metabolic networks with Seed2LP, on <a href="https://www.biorxiv.org/content/10.1101/2024.09.26.615309v1" target="_blank">BioRxiv</a>.
     month: September
     type: Publication
