@@ -19,6 +19,16 @@
 
 - name: Interns
   values:
+  - period: 2024
+    name: Juliette Audemard
+    role: Metabolic modelling of the phycosphere (INRAE HOLOFLUX project led by B. Diémé & N. Creusot).
+    at: Master 1 (4 months) <a href="https://odf.u-paris.fr/fr/offre-de-formation/master-XB/sciences-technologies-sante-STS/bio-informatique-K2VO60MU/master-bioinformatique-parcours-biologie-informatique-IJTUMHHO.html" target="_blank">Bio-informatique</a>, Univ. Paris Cité
+
+  - period: 2024
+    name: Juliette Gronier
+    role: Numerical metabolic modelling of microbial communities
+    at: Bachelor (6 weeks)  <a href="https://informatique.ens-lyon.fr/en" target="_blank">Computer science, ENS LYon</a>
+
   - period: 2023
     name: Nicolas Maurice
     role: Metagenomic assembly in complex ecosystems

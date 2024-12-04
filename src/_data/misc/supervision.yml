@@ -30,12 +30,7 @@
 
 - name: Interns
   values:
-  - period: 2024
-    name: Juliette Gronier
-    role: Numerical metabolic modelling of microbial communities
-    at: Bachelor (6 weeks)  <a href="https://informatique.ens-lyon.fr/en" target="_blank">Computer science, ENS LYon</a>
-
-  - period: 2024
+  - period: 2024 - 2025
     name: Juliette Audemard
-    role: Metabolic modelling of cyanobacteria and their heterotrophic bacterial communities in the context of freshwater blooms (INRAE HOLOFLUX project lead by Binta Diémé & Nicolas Creusot).
-    at: Master 2 (6 months)  <a href="https://www.u-bordeaux.fr/formation/2018/PRMA_74/bio-informatique" target="_blank">Bio-informatique</a>, Univ. de Bordeaux. Co-supervised with F. Salin (INRAE)
+    role: Metabolic modelling of cyanobacteria and their heterotrophic bacterial communities in the context of freshwater blooms (INRAE HOLOFLUX project led by Binta Diémé & Nicolas Creusot).
+    at: Master 2 (apprenticeship) <a href="https://odf.u-paris.fr/fr/offre-de-formation/master-XB/sciences-technologies-sante-STS/bio-informatique-K2VO60MU/master-bioinformatique-parcours-biologie-informatique-IJTUMHHO.html" target="_blank">Bio-informatique</a>, Univ. Paris Cité

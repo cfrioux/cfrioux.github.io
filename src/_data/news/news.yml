@@ -3,11 +3,15 @@
   - name: Simon Labarthe from Pleiade, other colleagues from Bordeaux and myself oganise the <a href="https://jobim2025.labri.fr" target="_blank">JOBIM 2025 Conference</a>, the French national conference on Bioinformatics. 
     month: November
     type: Conference organisation
-    number: 12
+    number: 14
   - name: Juliette Audemard is coming back to the team for her master's project. 
     month: November
     type: New team member
-    number: 11
+    number: 13
+  - name: Guilhem Sommeria-Klein joins Pleiade team as a permanent researcher. <a href="https://team.inria.fr/pleiade/job-offers/" target="_blank">More info on permanent positions</a>. 
+    month: October
+    type: New team member
+    number: 12
   - name: New preprint - Seed inference in metabolic networks with Seed2LP, on <a href="https://www.biorxiv.org/content/10.1101/2024.09.26.615309v1" target="_blank">BioRxiv</a>.
     month: September
     type: Publication

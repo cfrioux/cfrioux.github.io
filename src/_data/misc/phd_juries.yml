@@ -1,5 +1,9 @@
 - name: Jury member
   values:
+  - period: 2024
+    name: Mathieu Bolteau
+    role: 
+    at: Nantes Univ.
   - period: 2023
     name: Clémence Jospeh
     role: 
@@ -15,4 +19,4 @@
   - period: 2022
     name: Antoine Régimbeau
     role: 
-    at: Univ. Nantes
+    at: Nantes Univ.
