@@ -61,7 +61,13 @@
                     <i class="fa-brands fa-researchgate"></i>
                     <a href="{{ site.networks.researchgate.username | prepend: site.networks.researchgate.url }}">
                         {{ site.networks.researchgate.username }}
-                    </a><br/>
+                    </a><br />
+                    {% endif %}
+                    {% if site.networks.hal %}
+                    <i class="fa-solid fa-building-columns"></i>
+                    <a href="{{ site.networks.hal.username | prepend: site.networks.hal.url }}">
+                        {{ HAL site.networks.hal.username }}
+                    </a><br />
                     {% endif %}
                 </p>
             </div>
