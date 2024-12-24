@@ -1,5 +1,9 @@
 - year: 2024
   values:
+  - name: New preprint - Modeling the emergent metabolic potential of soil microbiomes in Atacama landscapes, on <a href="https://www.biorxiv.org/content/10.1101/2024.12.23.630026v1" target="_blank">BioRxiv</a>.
+    month: December
+    type: Publication
+    number: 15
   - name: Simon Labarthe from Pleiade, other colleagues from Bordeaux and myself oganise the <a href="https://jobim2025.labri.fr" target="_blank">JOBIM 2025 Conference</a>, the French national conference on Bioinformatics. 
     month: November
     type: Conference organisation
