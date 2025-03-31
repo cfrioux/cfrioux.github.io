@@ -1,3 +1,13 @@
+- year: 2025
+  values:
+  - name: Job alert! We are hiring a postdoc (2 + 2 years) in metabolic modelling for uncultured minimal bacteria. More info <a href="https://github.com/cfrioux/cfrioux.github.io/tree/master/job_offers/postdoc_modelling_TARGET_job_offer.pdf" target="_blank">here</a>.
+    month: April
+    type: Job advert
+    number: 17
+  - name: New preprint - Mapler, Assessing assembly quality in taxonomically rich metagenomes sequenced with HiFi reads. Read more on <a href="https://www.biorxiv.org/content/10.1101/2025.03.10.641994v1" target="_blank">BioRxiv</a>.
+    month: March
+    type: Publication
+    number: 16
 - year: 2024
   values:
   - name: New preprint - Modeling the emergent metabolic potential of soil microbiomes in Atacama landscapes, on <a href="https://www.biorxiv.org/content/10.1101/2024.12.23.630026v1" target="_blank">BioRxiv</a>.
@@ -12,7 +22,7 @@
     month: November
     type: New team member
     number: 13
-  - name: Guilhem Sommeria-Klein joins Pleiade team as a permanent researcher. <a href="https://team.inria.fr/pleiade/job-offers/" target="_blank">More info on permanent positions</a>. 
+  - name: Guilhem Sommeria-Klein joins Pleiade team as a permanent researcher. <a href="https://team.inria.fr/pleiade/job-offers/" target="_blank">How to joint the team as a permanent researcher?</a>. 
     month: October
     type: New team member
     number: 12

@@ -63,19 +63,31 @@
     hal_id       = {hal-04713829}
 }
 
-@article{Belcour2022.03.16.484574,
-    author       = {Belcour, Arnaud and Ruiz, Baptiste and Frioux, Cl{\'e}mence and Blanquart, Samuel and Siegel, Anne},
-    title        = {EsMeCaTa: Estimating metabolic capabilities from taxonomic affiliations},
-    elocation-id = {2022.03.16.484574},
-    year         = {2022},
-    doi          = {10.1101/2022.03.16.484574},
-    publisher    = {Cold Spring Harbor Laboratory},
-    abstract     = {Summary Predicting the functional potential of microorganisms in environmental samples from cultivation-independent techniques is a major challenge. A persistent difficulty lies in associating taxonomic profiles obtained from metabarcoding experiment with accurate functional profiles, particularly for poorly-resolved taxonomic groups. In this paper, we present EsMeCaTa a python package predicting shared proteins from taxonomic affiliations. EsMeCaTa relies on the UniProt database to retrieve the public proteomes associated with a taxon and then uses MMseqs2 in order to compute the set of proteins shared in the taxon. Finally, Es-MeCaTa extracts the functional annotations of these proteins to provide an accurate estimate of the functional potential associated to taxonomic affiliations. Availability EsMeCaTa is available at: https://github.com/AuReMe/esmecata under the GPL-3 license.Competing Interest StatementThe authors have declared no competing interest.},
-    url          = {https://www.biorxiv.org/content/early/2022/03/18/2022.03.16.484574},
-    journal      = {bioRxiv},
-    note         = {preprint},
-    pdf          = {https://www.biorxiv.org/content/10.1101/2022.03.16.484574v1.full.pdf},
-    hal_id       = {hal-03223662}
+@article{Belcour.2025,
+    year     = {2025},
+    title    = {{Estimating consensus proteomes and metabolic functions from taxonomic affiliations}},
+    author   = {Belcour, Arnaud and Hamon-Giraud, Pauline and Mataigne, Alice and Ruiz, Baptiste and Cunff, Yann Le and Got, Jeanne and Awhangbo, Lorraine and Lebreton, Mégane and Frioux, Clémence and Dittami, Simon and Dabert, Patrick and Siegel, Anne and Blanquart, Samuel},
+    journal  = {bioRxiv},
+    doi      = {10.1101/2022.03.16.484574},
+    abstract = {{Metabarcoding, and metagenomic sequencing have enabled the characterization of highly diverse environmental communities. The challenge of estimating the metabolic functions carried out by these communities has led to the development of several state-of-the-art methods, most of which are tailored to a specific gene marker. However, the increasing diversity of approaches resulting from advances in sequencing technologies drives the need for methods capable of handling heterogeneous microbial community data. Moreover, predictions often depend on their internal analysis pipelines and are influenced by the underlying databases, which link marker genes to specific functional annotations. This limits users’ ability to evaluate the quality of predictions by tracing internal data and processes. Finally, users are constrained by the specific annotations provided by these methods (e.g. EC numbers), limiting their ability to conduct further specialized analyses based on intermediate results. EsMeCaTa predicts consensus proteomes and their associated functions from taxonomic affiliations. A key feature of EsMeCaTa is its explainability and flexibility. To support the flexible integration of heterogeneous sequencing data, EsMeCaTa utilizes taxonomic affiliations obtained through analyses of diverse sequencing datasets. To provide insight into the knowledge available for each taxonomic affliation and to interpret the relevance of predicted functions, EsMeCaTa identifies a taxonomic rank within a given affliation that is suffciently represented by documented proteomes in the UniProt database. The proteins of the UniProt proteomes are clustered and filtered according to a threshold to create consensus proteomes. These consensus proteomes are automatically annotated with functional information (e.g., EC numbers, GO terms) but they are also designed to be used in further customized annotation workflows. Functional annotations are reported in a functional table, which can be enriched with taxon abundances to generate comprehensive functional profiles. EsMeCaTa predictions have been validated using multiple datasets and compared to a state-of-the-art method. Additionally, it was applied to a novel metabarcoding dataset from a methanogenic reactor, characterizing the microbial community and biogas production across different time points and intake condition. Our results demonstrate the link between biogas production, intake condition and the dynamics of the metabolic functions predicted by EsMeCaTa in the microbial communities.}},
+    pages    = {2022.03.16.484574},
+    hal_id   = {hal-03697249},
+    eprint   = {https://www.biorxiv.org/content/10.1101/2022.03.16.484574v2.full.pdf},
+    keywords = {preprint}
+}
+
+@article{Maurice.2025, 
+    year = {2025}, 
+    title = {{Mapler: Assessing assembly quality in taxonomically rich metagenomes sequenced with HiFi reads}}, 
+    author = {Maurice, Nicolas and Lemaitre, Claire and Vicedomini, Riccardo and Frioux, Clémence}, 
+    journal = {bioRxiv}, 
+    doi = {10.1101/2025.03.10.641994}, 
+    url = {https://www.biorxiv.org/content/early/2025/03/13/2025.03.10.641994}, 
+    abstract = {{Summary: Metagenome assembly seeks to reconstruct the most high-quality genomes from sequencing data of microbial ecosystems. Despite technological advancements that facilitate assembly, such as Hi-Fi long reads, the process remains challenging in complex environmental samples consisting of hundreds to thousands of populations. Mapler is a metagenome assembly and evaluation pipeline with a focus on evaluating the quality of Hi-Fi long read metagenome assemblies. It incorporates several state-of-the-art metrics, as well as novel metrics assessing the diversity that remains uncaptured by the assembly process. Mapler facilitates the comparison of assembly strategies and helps identify methodological bottlenecks that hinder genome reconstruction. Availability and Implementation: Mapler is open source and publicly vailable under the AGPL-3.0 licence at https://github.com/Nimauric/Mapler. Source code is implemented in Python and Bash as a Snakemake pipeline.Competing Interest StatementThe authors have declared no competing interest.}}, 
+    keywords = {}, 
+    keywords = {preprint},
+    hal_id   = {hal-04993862},
+    eprint   = {https://www.biorxiv.org/content/10.1101/2025.03.10.641994v1.full.pdf}
 }
 
 
