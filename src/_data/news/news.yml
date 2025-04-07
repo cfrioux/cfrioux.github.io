@@ -1,5 +1,8 @@
 - year: 2025
   values:
+  - name: Job alert! We are hiring a postdoc (18 mo + 14 mo) in metabolic modelling of rumen microbial communities. More info <a href="https://github.com/cfrioux/cfrioux.github.io/tree/master/data/job_offers/postdoc_modelling_H2RUMEN_job_offer.pdf" target="_blank">here</a>.
+    month: April
+    type: Job advert
   - name: The PhD work of Chabname Ghassemi Nedjad is published in Bioinformatics - inference of seed metabolites from metabolic networks. More info <a href="https://doi.org/10.1093/bioinformatics/btaf140" target="_blank">here</a>.
     month: April
     type: Publication
