@@ -1,10 +1,10 @@
 - year: 2025
   values:
-  - name: Killian Duguépéroux joins the team as an intern for 7 weeks. He is a Bachelor student in computer science at <a href="https://www.ens-lyon.fr/en/" target="_blank">ENS Lyon</a> and will be supervised by Guilhem Sommeria-Klein and mysel. 
+  - name: Killian Duguépéroux joins the team as an intern for 7 weeks. He is a Bachelor student in computer science at <a href="https://www.ens-lyon.fr/en/" target="_blank">ENS Lyon</a> and will be supervised by Guilhem Sommeria-Klein and myself. 
     month: June
     type: New team member
     number: 22
-  - name: The PhD work of Nicolas Maurice is published in Bioinformatics - Mapler, A pipeline for assessing assembly quality in taxonomically rich metagenomes sequenced with HiFi reads. More info <a href="https://doi.org/10.1093/bioinformatics/btaf334" target="_blank">here</a>.target="_blank">here</a>.
+  - name: A part of Nicolas Maurice's PhD work is now published in Bioinformatics - Mapler, A pipeline for assessing assembly quality in taxonomically rich metagenomes sequenced with HiFi reads. More info <a href="https://doi.org/10.1093/bioinformatics/btaf334" target="_blank">here</a>.
     month: June
     type: Publication
     number: 21
