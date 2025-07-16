@@ -2,7 +2,7 @@
   values:
   - period: 2020 - 2024
     name: Maxime Lecomte
-    role: co-supervisor (50%), co-supervised by H. Falentin (INRAE STLO) and D. Sherman (Inria)
+    role: co-supervisor (50%), co-supervised by Hélène Falentin (INRAE STLO) and David Sherman (Inria)
     at: Hybrid approach for explainable metabolic modelling of microbial ecosystems (<a href="https://theses.hal.science/tel-04583312">HAL</a>) (Inria-INRAE)
 
 - name: Engineers
@@ -21,7 +21,7 @@
   values:
   - period: 2024
     name: Juliette Audemard
-    role: Metabolic modelling of the phycosphere (INRAE HOLOFLUX project led by B. Diémé & N. Creusot).
+    role: Metabolic modelling of the phycosphere (INRAE HOLOFLUX project led by Binta Diémé & Nicolas Creusot).
     at: Master 1 (4 months) <a href="https://odf.u-paris.fr/fr/offre-de-formation/master-XB/sciences-technologies-sante-STS/bio-informatique-K2VO60MU/master-bioinformatique-parcours-biologie-informatique-IJTUMHHO.html" target="_blank">Bio-informatique</a>, Univ. Paris Cité
 
   - period: 2024
@@ -32,12 +32,12 @@
   - period: 2023
     name: Nicolas Maurice
     role: Metagenomic assembly in complex ecosystems
-    at: Master 2 (6 months)  <a href="https://www.u-bordeaux.fr/formation/2018/PRMA_74/bio-informatique" target="_blank">Bio-informatique</a>, Univ. de Bordeaux. Co-supervised with C. Lemaitre (Inria)
+    at: Master 2 (6 months)  <a href="https://www.u-bordeaux.fr/formation/2018/PRMA_74/bio-informatique" target="_blank">Bio-informatique</a>, Univ. de Bordeaux. Co-supervised with Claire Lemaitre (Inria)
 
   - period: 2022
     name: Léonard Brindel
     role: Metagenomic data analysis
-    at: Master 2 (6 months)  <a href="https://www.u-bordeaux.fr/formation/2018/PRMA_74/bio-informatique" target="_blank">Bio-informatique</a>, Univ. de Bordeaux. Co-supervised with F. Salin (INRAE)
+    at: Master 2 (6 months)  <a href="https://www.u-bordeaux.fr/formation/2018/PRMA_74/bio-informatique" target="_blank">Bio-informatique</a>, Univ. de Bordeaux. Co-supervised with Franck Salin (INRAE)
 
   - period: 2022
     name: Chabname Ghassemi Nedjad
@@ -52,7 +52,7 @@
   - period: 2020
     name: Maxime Lecomte
     role: Metabolic modelling of a cheese bacterial community
-    at: Master 2 (6 months)  <a href="https://www.u-bordeaux.fr/formation/2018/PRMA_74/bio-informatique" target="_blank">Bio-informatique</a>, Univ. de Bordeaux. Co-supervised with S. Labarthe (INRAE)
+    at: Master 2 (6 months)  <a href="https://www.u-bordeaux.fr/formation/2018/PRMA_74/bio-informatique" target="_blank">Bio-informatique</a>, Univ. de Bordeaux. Co-supervised with  <a href="https://biogeco.hub.inrae.fr/umr-biogeco/personnel/labarthe-simon" target="_blank">Simon Labarthe</a> (INRAE)
 
   - period: 2020
     name: Ariane Badoual
@@ -72,4 +72,4 @@
   - period: 2017
     name: Claire Lippold
     role: Exploration and characterization of the microbiome associated to <em>Ectocarpus subulatus</em> str. BFT
-    at: Master 1 (3 months) <a href="https://sve.univ-rennes1.fr/bio-informatique" target="_blank">Bio-Informatique et Génomique</a>, Univ. de Rennes 1. Co-supervised with C. Trottier (Univ. Nantes)
+    at: Master 1 (3 months) <a href="https://sve.univ-rennes1.fr/bio-informatique" target="_blank">Bio-Informatique et Génomique</a>, Univ. de Rennes 1. Co-supervised with Camille Trottier (Univ. Nantes)
