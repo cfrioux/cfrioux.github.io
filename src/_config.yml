@@ -59,11 +59,11 @@ contacts:
       200 avenue de la Vieille Tour<br/>
       33405 Talence<br/>
       France
-    direction:
-      map: https://www.openstreetmap.org/way/182389279
-      public_transportation:
-        stop:
-        link:
+    # direction:
+    #   map: https://www.openstreetmap.org/way/182389279
+    #   public_transportation:
+    #     stop:
+    #     link:
 
 # research
 research:
