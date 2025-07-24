@@ -1,29 +1,25 @@
-- name: Scientific communication
+- name: Selection of talks in (relatively) recent selective conferences
   values:
+  - period: 2025
+    name: Seed inference in interacting microbial communities using combinatorial optimization
+    role: Talk by Chabname Ghassemi Nedjad
+    at: <a href="https://cmsb2025.sciencesconf.org" target="_blank">23rd International conference on Computational Methods in Systems Biology (CMSB 2025)</a> -- Lyon, France 
+  - period: 2025
+    name: Metagenome-scale metabolic modelling for the characterization of cross-feeding interactions in freshwater cyanobacteria-associated microbial communities
+    role: Talk by Juliette Audemard
+    at: <a href="https://jobim2025.labri.fr" target="_blank">JOBIM 2025</a> -- Bordeaux, France -- Best talk of the conference award
   - period: 2024
-    name: Exploration of microbial ecosystems - from compositional patterns to metabolic models
-    role: Talk
-    at: Keynote speaker, JOBIM Toulouse, France
+    name: Assessing assembly quality in metagenomes of increasing complexity sequenced with HiFi long reads 
+    role: Talk by Nicolas Maurice (<a href="https://hal.science/hal-04822870v1" target="_blank">HAL</a>)
+    at: <a href="https://coursesandconferences.wellcomeconnectingscience.org/event/genome-informatics-20241113/" target="_blank">Genome Informatics 2024</a> -- Hinxton, United Kingdom
   - period: 2023
-    name: Exploration of microbial ecosystems, from compositional patterns to metabolic models
-    role: Talk
-    at: Invited seminar, Plant Health Institute, Montpellier, France
-  - period: 2023
-    name: Exploration of microbial ecosystems, from compositional patterns to metabolic models
-    role: Talk
-    at: Invited seminar, KU Leuven, Belgium
-  - period: 2022
-    name: Logic modelling of metabolism - from individual networks to communities
-    role: Talk
-    at: Bordeaux Bioinformatics Center seminar, France
-  - period: 2021
-    name: Logic modelling of metabolism - from individual networks to communities
-    role: Talk
-    at: French workshop on Metabolic Modelling, Bordeaux, France
+    name: Modelling the dynamics of Salmonella infection in the gut at the bacterial and host levels 
+    role: Talk by Coralie Muller and Pablo Ugalde Salas (<a href="https://inria.hal.science/hal-04229116" target="_blank">HAL</a>)
+    at: <a href="https://asb-conference.hki-jena.de/sbmi-2023" target="_blank">7th International Symposium on Systems Biology of Microbial Infection</a> -- Jena, Germany
   - period: 2021
     name: Metabolic complementarity applied to the screening of microbiota and the identification of key species
     role: Talk
-    at: Computational Methods in Systems Biology 2021, Bordeaux, France
+    at: Computational Methods in Systems Biology 2021 -- Bordeaux, France
   - period: 2021
     name: Metabolic complementarity applied to the screening of microbiota and the identification of key species
     role: Talk
@@ -32,50 +28,82 @@
     name: Metabolic complementarity applied to the screening of microbiota and the identification of key species
     role: Talk
     at: JOBIM Conference (virtual), France
+  - period: 2018
+    name: Scalable and exhaustive screening of metabolic functions carried out by microbial consortia
+    role: Talk - <a href="https://data-access.cesgo.org/index.php/s/uNR72XZ1nVG0kf8" target="_blank">Slides</a>
+    at: <a href="http://eccb18.org/" target="_blank">European Conference on Computational Biology, ECCB 2018</a> -- September 8th-12th 2018, Athens, Greece
+
+
+- name: Selection of (relatively) recent invited seminars and conferences
+  values:
+  - period: 2025
+    name: Reasoning, statistical learning and numerical modelling for the characterization of microbial communities
+    role: Seminar
+    at: <a href="https://www.irisa.fr" target="_blank">IRISA DKM department</a> -- Rennes, France
+  - period: 2025
+    name: Exploration of microbial communities, from compositional patterns to metabolic models
+    role: Seminar
+    at: <a href="https://www.inria.cl/en" target="_blank">Inria Chile</a> -- Santiago, Chile
+  - period: 2024
+    name: Exploration of microbial ecosystems - from compositional patterns to metabolic models
+    role: Keynote
+    at: <a href="https://jobim2024.sciencesconf.org/resource/page/id/6" target="_blank"> JOBIM 20024 </a> -- Toulouse, France
+  - period: 2023
+    name: Exploration of microbial ecosystems, from compositional patterns to metabolic models
+    role: Seminar
+    at: Plant Health Institute, Montpellier, France
+  - period: 2023
+    name: Exploration of microbial ecosystems, from compositional patterns to metabolic models
+    role: Seminar
+    at: KU Leuven, Belgium
+  - period: 2022
+    name: Logic modelling of metabolism - from individual networks to communities
+    role: Seminar
+    at: Bordeaux Bioinformatics Center seminar, France
+  - period: 2021
+    name: Logic modelling of metabolism - from individual networks to communities
+    role: Seminar
+    at: French workshop on Metabolic Modelling, Bordeaux, France
+  - period: 2021
+    name: Mathemetical and logic modelling in systems biology, applications to the metabolism of ecosystems
+    role: Seminar
+    at: CEMRACS 2021, Marseille, France
   - period: 2020
     name: Gap-filling metabolism in systems biology and microbial systems ecology
-    role: Talk
+    role: Seminar
     at: BioNum Seminar — LaBRI, February 2020, Bordeaux, France
   - period: 2019
     name: Investigating host-microbiota cooperation with gap-filling optimization problems
-    role: Talk
-    at: Invited seminar<a href="https://quadram.ac.uk/" target="_blank"> Quadram Institute of Biosciences </a>, May 2019, Norwich, UK
+    role: Seminar
+    at: <a href="https://quadram.ac.uk/" target="_blank"> Quadram Institute of Biosciences </a>, May 2019, Norwich, UK
   - period: 2019
     name: Investigating host-microbiota cooperation with gap-filling optimization problems
-    role: Talk
-    at: Invited research team seminar<a href="https://www.qtb.hhu.de/" target="_blank"> Institute of Quantitative and Theoretical Biology, HHU </a>, January 2019, Düsseldorf, Germany
+    role: Seminar
+    at: <a href="https://www.qtb.hhu.de/" target="_blank"> Institute of Quantitative and Theoretical Biology, HHU </a>, January 2019, Düsseldorf, Germany
   - period: 2018
     name: Investigating host-microbiota cooperation with gap-filling optimization problems
-    role: Talk
-    at:  Invited research team seminar <a href="https://bioinfo.lri.fr" target="_blank"> Bioinformatics research group, LRI </a>, November 2018, Orsay, France
+    role: Seminar
+    at:  <a href="https://bioinfo.lri.fr" target="_blank"> Bioinformatics research group, LRI </a>, November 2018, Orsay, France
   - period: 2018
     name: Scalable and exhaustive screening of metabolic functions in microbiotas
-    role: Talk
-    at: Invited research team seminar <a href="http://biologia.uc.cl/es/cuerpo-academico/profesor/45" target="_blank">Departamento de Ecología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile </a>, November 2018, Santiago, Chile
+    role: Seminar
+    at: <a href="http://biologia.uc.cl/es/cuerpo-academico/profesor/45" target="_blank">Departamento de Ecología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile </a>, November 2018, Santiago, Chile
   - period: 2018
     name: Scalable and exhaustive screening of metabolic functions in microbiotas
-    role: Talk
-    at: <a href="http://eventos.cmm.uchile.cl/sysbio2018/" target="_blank">II Workshop on Systems Biology Chile-France</a>, November 7th-9th 2018, Valparaiso, Chile
+    role: Seminar
+    at: <a href="http://www.ican-institute.org/team/umr_s872team-7-nutriomics-nutrition-obesity-systemic-approaches/" target="_blank"> UMR Nutriomics, ICAN </a>, October 2018, Paris, France
+
+
+- name: Posters
+  values:
   - period: 2018
     name: Scalable and exhaustive screening of metabolic functions carried out by microbial consortia
     role: Poster
     at: <a href="https://alam.science/alam-2018/" target="_blank">XXIV Congreso Latinoamericano de Microbiologia, ALAM 2018</a>, November 13th-16th 2018, Santiago, Chile
   - period: 2018
     name: Scalable and exhaustive screening of metabolic functions carried out by microbial consortia
-    role: Talk - <a href="https://data-access.cesgo.org/index.php/s/uNR72XZ1nVG0kf8" target="_blank">Slides</a>
-    at: <a href="http://eccb18.org/" target="_blank">European Conference on Computational Biology, ECCB 2018</a>, September 8th-12th 2018, Athens, Greece
-  - period: 2018
-    name: Scalable and exhaustive screening of metabolic functions carried out by microbial consortia
     role: Poster - <a href="https://data-access.cesgo.org/index.php/s/fAtbOuD1YGgnH34" target="_blank">PDF</a>
     at: <a href="http://eccb18.org/" target="_blank">European Conference on Computational Biology, ECCB 2018</a>, September 8th-12th 2018, Athens, Greece
-  - period: 2018
-    name: Scalable and exhaustive screening of metabolic functions in microbiotas
-    role: Talk
-    at: Invited research team seminar <a href="http://www.ican-institute.org/team/umr_s872team-7-nutriomics-nutrition-obesity-systemic-approaches/" target="_blank"> UMR Nutriomics, ICAN </a>, October 2018, Paris, France
-  - period: 2018
-    name: Scalable and exhaustive screening of metabolic functions carried out by microbial consortia
-    role: Talk
-    at: <a href="https://js.univ-nantes.fr/navigation/cl10-systems-ecology-which-advances-towards-ecosystems-understanding--2184302.kjsp?RH=1486401620746" target="_blank">Journées scientifiques de Nantes 2018</a>, June 2018, Nantes, France
   - period: 2018
     name: Combinatorial approaches for interactions prediction and community selection in holobionts.
     role: Poster
@@ -85,21 +113,32 @@
     role: Poster
     at: <a href="https://vibconferences.be/event/applied-bioinformatics-in-life-sciences-2nd-edition" target="_blank">Applied Bioinformatics in Life Sciences ABLS 2018</a>, March 8th-9th 2018, Leuven, Belgium
   - period: 2017
-    name: Toward the study of metabolic functions in algal-bacterial holobionts
-    role: Talk
-    at: <a href="https://ge2017.sciencesconf.org/" target="_blank">4ème Colloque du GDR de Génomique Environnementale</a>, September 13-15th 2017, Marseille
-  - period: 2017
     name: Topology to elucidate the respective roles of species in a symbiotic community
     role: Poster
     at: <a href="https://symposium.inra.fr/holobiont-paris2017" target="_blank">International Conference on Holobionts</a>, April 19th-21st 2017, Paris
-  - period: 2017
-    name: Hybrid gap-filling to reconcile qualitative and quantitative abstractions of metabolism
-    role: Talk
-    at: <a href="http://bioss-cnrs.fr/manif/jnbioss_201703/jnbioss201703.html" target="_blank">3ème édition des Journées annuelles du GDR BIOSS </a>, March 13-14th 2017, Montpellier
   - period: 2016
     name: Combinatorial gap-filling for genome-scale metabolic networks using taxonomy and pathway information
     role: Poster
     at: École Jeunes Chercheurs et Jeunes Chercheuses CNRS – 3ème École thématique de modélisation formelle des réseaux de régulation biologique <a href="http://i3s.unice.fr/bioregul/" target="_blank">Bioregul</a>, June 6th-10th, Porquerolles
+
+
+  # values:
+  # - period: 2018
+  #   name: Scalable and exhaustive screening of metabolic functions in microbiotas
+  #   role: Talk
+  #   at: <a href="http://eventos.cmm.uchile.cl/sysbio2018/" target="_blank">II Workshop on Systems Biology Chile-France</a>, November 7th-9th 2018, Valparaiso, Chile
+  # - period: 2018
+  #   name: Scalable and exhaustive screening of metabolic functions carried out by microbial consortia
+  #   role: Talk
+  #   at: <a href="https://js.univ-nantes.fr/navigation/cl10-systems-ecology-which-advances-towards-ecosystems-understanding--2184302.kjsp?RH=1486401620746" target="_blank">Journées scientifiques de Nantes 2018</a>, June 2018, Nantes, France
+  # - period: 2017
+  #   name: Toward the study of metabolic functions in algal-bacterial holobionts
+  #   role: Talk
+  #   at: <a href="https://ge2017.sciencesconf.org/" target="_blank">4ème Colloque du GDR de Génomique Environnementale</a>, September 13-15th 2017, Marseille
+  # - period: 2017
+  #   name: Hybrid gap-filling to reconcile qualitative and quantitative abstractions of metabolism
+  #   role: Talk
+  #   at: <a href="http://bioss-cnrs.fr/manif/jnbioss_201703/jnbioss201703.html" target="_blank">3ème édition des Journées annuelles du GDR BIOSS </a>, March 13-14th 2017, Montpellier
 
 # - name: Scientific popularizarion
 #   values:

@@ -23,7 +23,7 @@
 
 - name: Engineers
   values:
-  - period: 2022 - 2024
+  - period: 2023 - 2025
     name: Léonard Brindel
     role: Inria ADT engineer
     at: Visualisation of metabolic potential screening in microbial communities

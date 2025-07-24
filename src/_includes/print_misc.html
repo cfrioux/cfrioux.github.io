@@ -1,5 +1,19 @@
 {% for category in include.misc %}
 <h4>{{ category.name }}</h4>
+<!-- if category.name is poster -->
+
+{% if category.name == "Posters" %}
+<!-- show a text that says the list is non-exhaustive -->
+<p class="text-muted">
+    This list is non-exhaustive and mostly refers to posters I presented myself. For a complete and recent list of posters that were presented by students or colleagues, please refer to <a href="https://inria.hal.science/search/index/?qa%5Bauth_t%5D%5B%5D=Cl%C3%A9mence+Frioux&rows=30&docType_s=POSTER">HAL</a>.
+</p>
+{% endif %}
+<!-- if category.name is "Selection of talks in (relatively) recent selective conferences" -->
+{% if category.name == "Selection of talks in (relatively) recent selective conferences" %}
+<p class="text-muted">
+    This list also contains talks presented by students, in which case their names are indicated.
+</p>
+{% endif %}
 <dl class="dl-horizontal">
     {% for activity in category.values %}
     <dt>{{ activity.period }}</dt>
