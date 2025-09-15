@@ -1,9 +1,13 @@
 - year: 2025
   values:
+  - name: New preprint - Accurate MAG reconstruction from complex soil microbiome through combined short- and HiFi long-reads metagenomics. Read more on <a href="https://www.biorxiv.org/content/early/2025/09/12/2025.09.12.675765" target="_blank">BioRxiv</a>.
+    month: September
+    type: Publication
+    number: 24
   - name: Chabname Ghassemi Nedjad will present her work entitled "Seed inference in interacting microbial communities using combinatorial optimization" at the <a href="https://cmsb2025.sciencesconf.org" target="_blank">CMSB 2025</a> international conference in Lyon, France.
     month: September
     type: Conference
-    number: 1
+    number: 23
   - name: Killian Duguépéroux joins the team as an intern for 7 weeks. He is a Bachelor student in computer science at <a href="https://www.ens-lyon.fr/en/" target="_blank">ENS Lyon</a> and will be supervised by Guilhem Sommeria-Klein and I. 
     month: June
     type: New team member
