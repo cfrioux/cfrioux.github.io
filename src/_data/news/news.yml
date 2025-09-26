@@ -1,5 +1,13 @@
 - year: 2025
   values:
+  - name: Internship offer hosted at INRAE Metagenopolis (Jouy en Josas). Read <a href="https://github.com/cfrioux/cfrioux.github.io/tree/master/data/job_offers/Offre_stage_MGP_Pleiade.pdf" target="_blank">more</a>.
+    month: September
+    type: Internship advert
+    number: 26
+  - name: Internship offer hosted in the Pleaide team in Bordeaux. Read <a href="https://github.com/cfrioux/cfrioux.github.io/tree/master/data/job_offers/offre_stageM2_2026_pleiade_GSK_CF.pdf" target="_blank">more</a>.
+    month: September
+    type: Internship advert
+    number: 25
   - name: New preprint - Accurate MAG reconstruction from complex soil microbiome through combined short- and HiFi long-reads metagenomics. Read more on <a href="https://www.biorxiv.org/content/early/2025/09/12/2025.09.12.675765" target="_blank">BioRxiv</a>.
     month: September
     type: Publication
