@@ -7,6 +7,11 @@
 
 - name: Engineers
   values:
+  - period: 2023 - 2025
+    name: Léonard Brindel
+    role: Inria ADT engineer
+    at: Visualisation of metabolic potential screening in microbial communities
+
   - period: 2022 - 2024
     name: Coralie Muller
     role: Spatio-temporal modelling of microbial communities
@@ -19,6 +24,16 @@
 
 - name: Interns
   values:
+  - period: 2024 - 2025
+    name: Juliette Audemard
+    role: Metabolic modelling of cyanobacteria and their heterotrophic bacterial communities in the context of freshwater blooms (INRAE HOLOFLUX project led by Binta Diémé & Nicolas Creusot).
+    at: Master 2 (apprenticeship) <a href="https://odf.u-paris.fr/fr/offre-de-formation/master-XB/sciences-technologies-sante-STS/bio-informatique-K2VO60MU/master-bioinformatique-parcours-biologie-informatique-IJTUMHHO.html" target="_blank">Bio-informatique</a>, Univ. Paris Cité
+  
+  - period: 2025
+    name: Killian Duguépéroux
+    role: Dimensionality reduction of microbiome data. Co-supervised with <a href="https://scholar.google.com/citations?user=F1_9N4EAAAAJ&hl" target="_blank">Guilhem Sommeria-Klein</a>. 
+    at: Bachelor (7 weeks)  <a href="https://informatique.ens-lyon.fr/en" target="_blank">Computer science, ENS LYon</a>
+
   - period: 2024
     name: Juliette Audemard
     role: Metabolic modelling of the phycosphere (INRAE HOLOFLUX project led by Binta Diémé & Nicolas Creusot).
@@ -27,7 +42,7 @@
   - period: 2024
     name: Juliette Gronier
     role: Numerical metabolic modelling of microbial communities
-    at: Bachelor (6 weeks)  <a href="https://informatique.ens-lyon.fr/en" target="_blank">Computer science, ENS LYon</a>
+    at: Bachelor (6 weeks)  <a href="https://informatique.ens-lyon.fr/en" target="_blank">Computer science, ENS Lyon</a>
 
   - period: 2023
     name: Nicolas Maurice

@@ -1,5 +1,9 @@
 - year: 2025
   values:
+  - name: Olivia Bulka joined the team as a postdoctoral researcher. She is hired to work on the INRAE EXPLOR'AE TARGET project. <a href="https://explorae.inrae.fr/web/fr/platform_posts/projet-transformation-target" target="_blank">Read more</a>.
+    month: October
+    type: New team member
+    number: 27
   - name: Internship offer hosted at INRAE Metagenopolis (Jouy-en-Josas). Read <a href="https://github.com/cfrioux/cfrioux.github.io/tree/master/data/job_offers/Offre_stage_MGP_Pleiade.pdf" target="_blank">more</a>.
     month: September
     type: Internship advert
