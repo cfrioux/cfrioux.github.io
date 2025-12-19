@@ -5,13 +5,13 @@
     role: Co-supervision with <a href="https://bfp.bordeaux-aquitaine.hub.inrae.fr/personnel/pages-web-personnelles/prigent-sylvain" target="_blank">Sylvain Prigent</a> (INRAE, BFP) #
     at: Metabolic modelling for non-culturable bacteria (INRAE EXPLOR'AE TARGET).
 
+  - period: 2025 - 2027
+    name: Pritam Kundu
+    role: Co-supervision #
+    at: Metabolic modelling of the rumen microbiome (ANR funded project H2Rumen).
+
 - name: PhD students
   values:
-  - period: 2022 - 2025
-    name: Chabname Ghassemi Nedjad
-    role: co-director (50%) with <a href="https://loicpauleve.name" target="_blank">Loïc Paulevé</a> (CNRS, LaBRI) #
-    at: Combinatorial problem solving for the detection of seeds in metabolic networks (Univ. Bordeaux).
-
   - period: 2023 - 2026
     name: Nicolas Maurice
     role: Co-supervisor (33%) with <a href="https://rvicedomini.github.io" target="_blank">Riccardo Vicedomini</a> (CNRS, IRISA-Inria Rennes) and <a href="https://people.rennes.inria.fr/Claire.Lemaitre/" target="_blank">Claire Lemaitre</a> (Inria Rennes)

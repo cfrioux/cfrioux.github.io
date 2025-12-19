@@ -1,5 +1,10 @@
 - name: PhD students
   values:
+  - period: 2022 - 2025
+    name: Chabname Ghassemi Nedjad
+    role: co-director (50%) with <a href="https://loicpauleve.name" target="_blank">Loïc Paulevé</a> (CNRS, LaBRI) #
+    at: Modelling and solving combinatorial optimisation problems for reverse ecology (Univ. Bordeaux).
+  
   - period: 2020 - 2024
     name: Maxime Lecomte
     role: co-supervisor (50%), co-supervised by Hélène Falentin (INRAE STLO) and David Sherman (Inria)
