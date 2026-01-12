@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Research scientist Inria Bordeaux, France
+">
+    <meta name="author" content="Clémence Frioux">
+    <title>Clémence Frioux</title>
+    <link rel="icon" type="image/png" href="/images/favicon.png" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="https://cfrioux.github.io/">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="/fontawesome-free-6.4.0-web/css/all.css">
+    <meta name="google-site-verification" content="MJbvweFXM5RbkeipDYz3IhNhyEy4TinndcIhsewN4eI" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+    <!-- management of blocked Javascript -->
+    <noscript>
+        <style> .ifjavascript {
+            display: none
+        } </style>
+    </noscript>
+</head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/index.html">Clémence Frioux</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a class="navbar-link" href="/index.html">home</a>
+                </li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li >
+                    <a class="navbar-link" href="/research/">research</a>
+                </li>
+                
+                
+                
+                <li >
+                    <a class="navbar-link" href="/misc/">misc</a>
+                </li>
+                
+                
+                
+                <li >
+                    <a class="navbar-link" href="/bio/">bio</a>
+                </li>
+                
+                
+                
+                <li >
+                    <a class="navbar-link" href="/news/news/">news</a>
+                </li>
+                
+                
+                
+                <li >
+                    <a class="navbar-link" href="/teaching/teaching/">teaching</a>
+                </li>
+                
+                
+                
+                <li >
+                    <a class="navbar-link" href="/outreach/outreach/">outreach</a>
+                </li>
+                
+                
+                
+                <li >
+                    <a class="navbar-link" href="/dni/">equality</a>
+                </li>
+                
+                
+                
+                <li >
+                    <a class="navbar-link" href="/contact/">contact</a>
+                </li>
+                
+                
+                <!--
+                <li>
+                    <a class="navbar-link" href="/index.html#contact">contact</a>
+                </li>
+                -->
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+
+    <div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="media personal-picture"><img src=https://static.mamot.fr/accounts/avatars/000/032/478/original/1820a2afa24757a2.jpeg alt="personal picture"/></div>
+            </div>
+            <div class="col-sm-9">
+                <h3>PhD | Computer Science — Computational biology</h3>
+                <p class="lead">
+                    Research scientist<br/>
+                    <a href="https://www.inria.fr/en">Inria</a> Bordeaux - France
+                </p>
+            </div>
+        </div> <!-- information row -->
+        <div class="row text-center">
+            <hr class="light">
+            <!-- <div class="col-md-12"> -->
+                <!-- <h4 class="text-muted" style="color:#cc0940"><strong>We're hiring! </strong></h4>
+                <p class="text-muted" style="color:#cc0940"></p> -->
+                <!-- <p style="color:#cc0940" ;><strong>We're hiring!</strong></p><br /> -->
+                <!-- <p style="color:#cc0940" ;><strong>We're seeking interns!</strong></p><br />
+                <p style="color:#cc0940" ;> <strong>Two 6-month internships</strong> - one hosted in Bordeaux on dimensionality reduction of gut microbiome data [<a href="https://github.com/cfrioux/cfrioux.github.io/tree/master/data/job_offers/offre_stageM2_2026_pleiade_GSK_CF.pdf"
+                    target="_blank">more info</a>] and the other hosted in Jouy-en-Josas on metagenomics and metabolic modelling [<a href="https://github.com/cfrioux/cfrioux.github.io/tree/master/data/job_offers/Offre_stage_MGP_Pleiade.pdf" target="_blank">more info</a>].
+                                    <br /> </p> -->
+                <!-- <p> <strong>2 postdoc positions</strong> - two years each - starting this fall to study the <strong>spatio-temporal
+                        dynamics of the gut microbiota</strong>.
+                    We recruit two complementary profiles: one <strong><a
+                            href="https://jobs.inria.fr/public/classic/fr/offres/2021-03628">systems biologist</a></strong> and one
+                    <strong><a href="https://jobs.inria.fr/public/classic/fr/offres/2021-03660">applied mathematician</a></strong>.
+                    <br /> </p> -->
+                <!-- <p style="color:#cc0940"> <strong>Postdoc position</strong> - 2 years (+ 2 more possible) - starting in September 2025
+                    on metabolic modelling for uncultured minimal bacteria. More information: check the <a
+                        href="https://github.com/cfrioux/cfrioux.github.io/tree/master/data/job_offers/postdoc_modelling_TARGET_job_offer.pdf"
+                        target="_blank">job offer</a> and contact us -->
+                <!-- <p style="color:#cc0940"> <strong>Postdoc position</strong> - 18 months (+ 14 months at Paris-Saclay) - starting in fall 2025
+                    on metabolic modelling for rumen microbial communities. More information: check the <a
+                        href="https://github.com/cfrioux/cfrioux.github.io/tree/master/data/job_offers/postdoc_modelling_H2RUMEN_job_offer.pdf"
+                        target="_blank">job offer</a> and contact us -->
+                <!-- <p>More information: check the <a href="https://github.com/cfrioux/cfrioux.github.io/tree/master/job_offers/postdoc_modelling_TARGET_job_offer.pdf"
+                    target="_blank">job offer</a> and contact me</p> -->
+                <!-- &nbsp;
+                </p>
+            </div> -->
+            <div class="col-sm-5">
+                <h4 class="index_title"><strong>Research interests</strong></h4>
+                <p class="text-muted">
+                    Systems biology, Computational biology <br />
+                    Microbial communities, Metabolic modelling<br />
+                    Machine learning, Machine reasoning<br/>
+                    Answer Set Programming, Symbolic AI<br/>
+                    Gut microbiome, Agroecology, Marine biology
+                    &nbsp;
+                </p>
+                <a href="/research">
+                    <button class="btn btn-primary">Learn more <i class="fa fa-chevron-circle-right"></i>
+                    </button>
+                </a>
+                <h4 class="index_title"><strong>Latest news</strong></h4>
+                <p class="text-muted">
+                    
+                    <!-- 
+
+
+
+ -->
+
+
+
+    
+        
+            <div class="text-justify">
+                January 2026 -- <b>Publication</b> -- <em>New publication - Detecting signatures underlying the composition of biological data. Read more on <a href="https://doi.org/10.1093/nar/gkaf1388" target="_blank">NAR</a>.</em> <br />
+            </div>
+            <dl class="dl-horizontal">
+                ~~~
+            </dl>
+            
+        
+    
+        
+            <div class="text-justify">
+                January 2026 -- <b>Publication</b> -- <em>New preprint - MetaNetMap, automated mapping of metabolomic data onto metabolic networks. Read more on <a href="https://www.biorxiv.org/content/10.64898/2026.01.05.697697v1" target="_blank">BioRxiv</a>.</em> <br />
+            </div>
+            <dl class="dl-horizontal">
+                ~~~
+            </dl>
+            
+        
+    
+
+    
+        
+            <div class="text-justify">
+                December 2025 -- <b>News</b> -- <em>Chabname Ghassemi Nedjad has defended her PhD entitled "Modelling and solving combinatorial optimisation problems for reverse ecology" on December 11th, 2025. Congratulations to her!</em> <br />
+            </div>
+            <dl class="dl-horizontal">
+                ~~~
+            </dl>
+            
+        
+    
+        
+            <div class="text-justify">
+                December 2025 -- <b>Publication</b> -- <em>The work of Mathilde Sola et al, "Modeling the emergent metabolic potential of soil microbiomes in Atacama landscapes" has been published as a preprint. <a href="https://www.biorxiv.org/content/10.64898/2025.12.05.692507v1" target="_blank">Read more</a>.</em> <br />
+            </div>
+            <dl class="dl-horizontal">
+                ~~~
+            </dl>
+            
+        
+    
+        
+            
+
+    
+        
+            
+
+    
+        
+            
+
+
+                </p>
+                <a href="/news">
+                    <button class="btn btn-primary"> Read more <i class="fa fa-chevron-circle-right"></i>
+                    </button>
+                </a>
+            </div>
+            <div class="col-sm-7">
+                <h4 class="index_title"><strong>Latest publications</strong></h4>
+                <p class="text-muted">
+                    
+                    
+
+
+
+<div class="ifjavascript">
+    <div class="publi_index" id="publications_recent">
+        <ol class="bibliography"><li><div>
+    <div class="text-justify">
+        <span id="Muller.2026">Coralie Muller, Juliette Audemard, Sylvain Prigent, and Clémence Frioux. <b>MetaNetMap: automatic mapping of metabolomic data onto metabolic networks</b>. 2026.</span>
+        
+        <a target="_blank" href="http://doi.org/10.64898/2026.01.05.697697">http://doi.org/10.64898/2026.01.05.697697</a>
+            
+</div>
+</li>
+<li><div>
+    <div class="text-justify">
+        <span id="Sola.2025">Mathilde Sola, Adrien Paravel, Sandrine Auger, Jean-Marc Chatel, Florian Plaza Oñate, Emmanuelle Le Chatelier, Marion Leclerc, Patrick Veiga, Clémence Frioux, Mahendra Mariadassou, and Magali Berland. <b>NeighborFinder: an R package inferring local microbial network around a species of interest</b>. <i>bioRxiv</i>, 2025.</span>
+        
+        <a target="_blank" href="http://doi.org/10.64898/2025.12.05.692507">http://doi.org/10.64898/2025.12.05.692507</a>
+            
+</div>
+</li>
+<li><div>
+    <div class="text-justify">
+        <span id="Belcour.2025">Arnaud Belcour, Pauline Hamon-Giraud, Alice Mataigne, Baptiste Ruiz, Yann Le Cunff, Jeanne Got, Lorraine Awhangbo, Mégane Lebreton, Clémence Frioux, Simon Dittami, Patrick Dabert, Anne Siegel, and Samuel Blanquart. <b>Estimating consensus proteomes and metabolic functions from taxonomic affiliations</b>. <i>bioRxiv</i>, :2022.03.16.484574, 2025.</span>
+        
+        <a target="_blank" href="http://doi.org/10.1101/2022.03.16.484574">http://doi.org/10.1101/2022.03.16.484574</a>
+            
+</div>
+</li>
+<li><div>
+    <div class="text-justify">
+        <span id="Belliardo2025.09.12.675765">Carole Belliardo, Nicolas Maurice, Arthur Pere, Samuel Mondy, Alain Franc, Marc Bailly-Bechet, Claire Lemaitre, Riccardo Vicedomini, Jean-Marc Frigerio, Pierre Abad, David Sherman, Elodie Belmonte, Franck Salin, Clémence Frioux*, and Etienne Danchin*. <b>Accurate MAG reconstruction from complex soil microbiome through combined short- and HiFi long-reads metagenomics</b>. <i>bioRxiv</i>, 2025.</span>
+        
+        <a target="_blank" href="http://doi.org/10.1101/2025.09.12.675765">http://doi.org/10.1101/2025.09.12.675765</a>
+            
+</div>
+</li>
+<li><div>
+    <div class="text-justify">
+        <span id="Duncan.2025">Anthony Duncan, Wing Koon, Katarzyna Sidorczuk, Christopher Quince, Clémence Frioux, and Falk Hildebrand. <b>Detecting signatures underlying the composition of biological data</b>. <i>Nucleic Acids Research</i>, 53(22) :gkaf1388, 2025.</span>
+        
+        <a target="_blank" href="http://doi.org/10.1093/nar/gkaf1388">http://doi.org/10.1093/nar/gkaf1388</a>
+            
+</div>
+</li>
+<li><div>
+    <div class="text-justify">
+        <span id="Andreani.2025">Constanza M. Andreani-Gerard, Natalia E. Jiménez, Ricardo Palma, Coralie Muller, Pauline Hamon-Giraud, Yann Le Cunff, Verónica Cambiazo, Mauricio González, Anne Siegel, Clémence Frioux*, and Alejandro Maass*. <b>Modeling the emergent metabolic potential of soil microbiomes in Atacama landscapes</b>. <i>Environmental Microbiome</i>, 20(1) :142, 2025.</span>
+        
+        <a target="_blank" href="http://doi.org/10.1186/s40793-025-00749-8">http://doi.org/10.1186/s40793-025-00749-8</a>
+            
+</div>
+</li>
+<li><div>
+    <div class="text-justify">
+        <span id="Maurice.2025">Nicolas Maurice, Claire Lemaitre, Riccardo Vicedomini, and Clémence Frioux. <b>Mapler: A pipeline for assessing assembly quality in taxonomically rich metagenomes sequenced with HiFi reads</b>. <i>Bioinformatics</i>, :btaf334, 2025.</span>
+        
+        <a target="_blank" href="http://doi.org/10.1093/bioinformatics/btaf334">http://doi.org/10.1093/bioinformatics/btaf334</a>
+            
+</div>
+</li>
+<li><div>
+    <div class="text-justify">
+        <span id="GhassemiNedjad.2025">Chabname Ghassemi Nedjad, Mathieu Bolteau, Lucas Bourneuf, Loïc Paulevé, and Clémence Frioux. <b>Seed2LP: seed inference in metabolic networks for reverse ecology applications</b>. <i>Bioinformatics</i>, :btaf140, 2025.</span>
+        
+        <a target="_blank" href="http://doi.org/10.1093/bioinformatics/btaf140">http://doi.org/10.1093/bioinformatics/btaf140</a>
+            
+</div>
+</li>
+<li><div>
+    <div class="text-justify">
+        <span id="GNedjad.2025_cmsb">Chabname Ghassemi-Nedjad, Sebastián Nelson Mendoza, Clémence Frioux, and Loïc Paulevé. <b>Seed Inference in Interacting Microbial Communities Using Combinatorial Optimization</b>. In: <i>Computational Methods in Systems Biology, 23rd International Conference, CMSB 2025, Lyon, France, September 10–12, 2025, Proceedings</i>, pp. 370–387, Springer, Cham, 2025.</span>
+        
+        <a target="_blank" href="http://doi.org/10.1007/978-3-032-01436-8_20">http://doi.org/10.1007/978-3-032-01436-8_20</a>
+            
+</div>
+</li>
+<li><div>
+    <div class="text-justify">
+        <span id="Frioux2025_hdr">Clémence Frioux. <b>HDR – Machine reasoning, dimensionality reduction and numerical modelling applied to the exploration of metabolism in microbial communities</b>, Université de Bordeaux, September 2025.</span>
+            
+</div>
+</li></ol>
+    </div>
+</div>
+
+                </p>
+                <a href="/research">
+                    <button class="btn btn-primary">See more <i class="fa fa-chevron-circle-right"></i>
+                    </button>
+                </a>
+            </div>
+            <!-- <div class="col-sm-4"> -->
+                <!-- <h4><strong>Duties</strong></h4> -->
+                <!-- <p class="text-muted"> -->
+                    <!-- <br/> -->
+                    <!-- <br/> -->
+                    <!-- <br/> -->
+                    <!-- &nbsp; -->
+                <!-- </p> -->
+                <!-- <a href=""> -->
+                    <!-- <button class="btn btn-primary">learn more <i class="fa fa-chevron-circle-right"></i> -->
+                    <!-- </button> -->
+                <!-- </a> -->
+            <!-- </div> -->
+        </div> <!-- abstracts row -->
+    </div> <!-- container -->
+</div>
+
+<!-- Mastodon link verification -->
+<a rel="me" href="https://mamot.fr/@clemencefrioux"></a>
+    <div class="navbar navbar-default navbar-bottom">
+    <div class="container">
+        <h4>Clémence Frioux (she/her)</h4>
+        <div class="row">
+            <div class="col-md-4">
+                <p>Research scientist Inria Bordeaux, France
+</p>
+            </div>
+            <div class="col-md-3">
+                <p>
+                    
+                    <a href="mailto:(firstname).(lastname)@inria.fr">
+                        (firstname).(lastname)@inria.fr
+                    </a><br/>
+                    
+                    
+                </p>
+            </div>
+            <div class="col-md-3">
+                <p>
+                    
+                    <i class="fa-brands fa-github-square"></i>
+                    <a href="https://github.com/cfrioux">
+                        cfrioux
+                    </a><br/>
+                    
+                    
+                    
+                    <i class="fa-brands fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/clemencefrioux">
+                        in/clemencefrioux
+                    </a><br/>
+                    
+                    
+                    <i class="fas fa-graduation-cap"></i>
+                    <a href="https://scholar.google.com/citations?user=ILXDngoAAAAJ">
+                        Clémence Frioux
+                    </a><br/>
+                    
+                    
+                    <i class="fa-brands fa-mastodon"></i>
+                    <a href="https://mamot.fr/@clemencefrioux">
+                        clemencefrioux
+                    </a><br/>
+                    
+                    
+                    <i class="fa-brands fa-orcid"></i>
+                    <a href="https://orcid.org/0000-0003-2114-0697">
+                        0000-0003-2114-0697
+                    </a><br/>
+                    
+                    
+                    
+                    <i class="fa-solid fa-building-columns"></i>
+                    <a href="https://cv.hal.science/clemence-frioux">
+                        idHAL clemence-frioux
+                    </a><br />
+                    
+                </p>
+            </div>
+        </div>
+        <div class="footer-col-wrapper">
+            <div class="footer-col-thanks">
+                <p>
+                    pages made with <a href="http://jekyllrb.com">Jekyll</a>,
+                    <a class="button" href="https://github.com/cfrioux/cfrioux.github.io">
+                        <button class="btn btn-xs btn-primary"><i
+                                class="fa fa-download"></i> get source code
+                        </button>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/javascripts/bootstrap.min.js"></script>
+
+
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115007039-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-115007039-1');
+</script>
+
+
+  </body>
+</html>
