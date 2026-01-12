@@ -1,5 +1,9 @@
 - year: 2026
   values:
+  - name: New publication - Detecting signatures underlying the composition of biological data. Read more on <a href="https://doi.org/10.1093/nar/gkaf1388" target="_blank">NAR</a>.
+    month: January
+    type: Publication
+    number: 32
   - name: New preprint - MetaNetMap, automated mapping of metabolomic data onto metabolic networks. Read more on <a href="https://www.biorxiv.org/content/10.64898/2026.01.05.697697v1" target="_blank">BioRxiv</a>.
     month: January
     type: Publication
