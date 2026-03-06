@@ -1,5 +1,9 @@
 - year: 2026
   values:
+  - name: New preprint - Prediction of source nutrients for microorganisms using metabolic networks. Read more on <a href="https://doi.org/10.48550/arxiv.2602.21993" target="_blank">arXiv</a>.
+    month: March
+    type: Publication
+    number: 33
   - name: New publication - Detecting signatures underlying the composition of biological data. Read more on <a href="https://doi.org/10.1093/nar/gkaf1388" target="_blank">NAR</a>.
     month: January
     type: Publication
