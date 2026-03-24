@@ -1,5 +1,9 @@
 - year: 2026
   values:
+  - name: New preprint - Integrating metagenome-scale metabolic modelling and metabolomics to identify biochemical interactions in Microcystis phycospheres. Read more on <a href="https://doi.org/10.64898/2026.03.18.712574" target="_blank">BioRxiv</a>.
+    month: March
+    type: Publication
+    number: 34
   - name: New preprint - Prediction of source nutrients for microorganisms using metabolic networks. Read more on <a href="https://doi.org/10.48550/arxiv.2602.21993" target="_blank">arXiv</a>.
     month: March
     type: Publication
