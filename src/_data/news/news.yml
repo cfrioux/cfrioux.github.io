@@ -1,5 +1,21 @@
 - year: 2026
   values:
+  - name: New preprint - "Hydrogen metabolism shapes gut microbiome into health-associated configurations", from the PhD of Mathilde Sola. Read more on <a href="https://doi.org/10.64898/2026.05.05.722951" target="_blank">BioRxiv</a>.
+    month: June
+    type: Publication
+    number: 38
+  - name: New preprint - From Concept to Perspective: Digital Twins of Microbial Systems. Read more on <a href="https://hal.inrae.fr/hal-05613501" target="_blank">HAL</a>.
+    month: May
+    type: Publication
+    number: 37
+  - name: Niels Roudeau joins the team as an intern, working on dimensionality reduction techniques using machine learning.
+    month: April
+    type: New team member
+    number: 36
+  - name: Sarah Toubal joins the team as an intern, working on the Le French Gut project. She is hosted at INRAE MetaGenoPolis lab, in Jouy-en-Josas.
+    month: February
+    type: New team member
+    number: 35
   - name: New preprint - Integrating metagenome-scale metabolic modelling and metabolomics to identify biochemical interactions in Microcystis phycospheres. Read more on <a href="https://doi.org/10.64898/2026.03.18.712574" target="_blank">BioRxiv</a>.
     month: March
     type: Publication
